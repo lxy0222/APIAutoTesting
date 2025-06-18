@@ -1,0 +1,2 @@
+2023-05-22 13:14:52,236 - writeLogs.py - ERROR: 文件：E:\PythonProject\Demo_Test-master\PyDemo\method_collection\__init__.py - Failed to set global variables!
+2023-05-22 13:14:52,236 - writeLogs.py - ERROR: 文件：E:\PythonProject\Demo_Test-master\PyDemo\method_collection\__init__.py - 'bool' object is not subscriptable

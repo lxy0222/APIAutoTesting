@@ -1,0 +1,8 @@
+2023-07-05 16:04:25,443 - writeLogs.py - ERROR: file：apiMethod.py - ERROR
+Traceback (most recent call last):
+  File "E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py", line 165, in get
+    response.content)
+  File "D:\env\python3.7\lib\site-packages\xmltodict.py", line 378, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: syntax error: line 12, column 62
+2023-07-05 16:04:25,803 - writeLogs.py - ERROR: file：apiMethod.py - syntax error: line 12, column 62

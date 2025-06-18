@@ -1,0 +1,631 @@
+2023-05-17 18:11:35,112 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\startup.py - 根据手工编写用例，自动生成测试脚本，然后运行测试！
+2023-05-17 18:11:36,070 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-05-17 18:11:54,086 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\startup.py - 根据手工编写用例，自动生成测试脚本，然后运行测试！
+2023-05-17 18:11:54,315 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-05-17 18:11:56,919 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-05-17 18:11:56,924 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-05-17 18:11:56,954 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-05-17 18:11:56,957 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-05-17 18:11:56,959 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-05-17 18:11:56,962 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-17 18:11:56,975 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-05-17 18:11:56,976 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-05-17 18:11:56,980 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-05-17 18:11:56,981 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-05-17 18:11:56,984 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-05-17 18:11:56,987 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-05-17 18:11:56,998 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-05-17 18:11:56,999 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-05-17 18:11:57,002 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-05-17 18:11:57,004 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-05-17 18:11:57,014 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-05-17 18:11:57,017 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-05-17 18:11:57,028 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:11:57,028 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-05-17 18:11:57,029 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-05-17 18:11:57,040 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-05-17 18:11:57,044 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-05-17 18:11:57,055 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:11:57,055 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-05-17 18:11:57,058 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-05-17 18:11:57,069 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-05-17 18:11:57,071 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-05-17 18:11:57,082 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-05-17 18:11:57,083 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-05-17 18:11:57,086 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-05-17 18:11:57,092 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-05-17 18:11:57,097 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-05-17 18:11:57,102 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-05-17 18:11:57,104 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:11:57,105 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:11:57,105 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-05-17 18:11:57,109 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-05-17 18:11:57,112 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:11:57,119 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,120 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,121 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,121 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,121 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:11:57,121 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:12,146 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\startup.py - 根据手工编写用例，自动生成测试脚本，然后运行测试！
+2023-05-17 18:12:12,377 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-05-17 18:12:13,893 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-05-17 18:12:13,898 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-05-17 18:12:13,901 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-05-17 18:12:13,904 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-05-17 18:12:13,906 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-05-17 18:12:13,908 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-17 18:12:13,909 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-05-17 18:12:13,910 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-05-17 18:12:13,912 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-05-17 18:12:13,914 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-05-17 18:12:13,916 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-05-17 18:12:13,919 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-05-17 18:12:13,920 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-05-17 18:12:13,921 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-05-17 18:12:13,922 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-05-17 18:12:13,924 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-05-17 18:12:13,926 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-05-17 18:12:13,929 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-05-17 18:12:13,930 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:12:13,930 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-05-17 18:12:13,931 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-05-17 18:12:13,933 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-05-17 18:12:13,936 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-05-17 18:12:13,938 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:12:13,938 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-05-17 18:12:13,941 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-05-17 18:12:13,942 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-05-17 18:12:13,944 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-05-17 18:12:13,946 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-05-17 18:12:13,947 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-05-17 18:12:13,948 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-05-17 18:12:13,954 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-05-17 18:12:13,957 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-05-17 18:12:13,963 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-05-17 18:12:13,964 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:12:13,964 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:12:13,964 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-05-17 18:12:13,969 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-05-17 18:12:13,970 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-17 18:12:13,977 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,978 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,978 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,978 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:13,979 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:14,001 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+2023-05-17 18:12:14,002 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request interface：/itg/rest2/portfolios
+2023-05-17 18:12:14,002 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request address：http://ppmsh03.hpeswlab.net:39880//itg/rest2/portfolios
+2023-05-17 18:12:14,002 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request header: {}
+2023-05-17 18:12:14,002 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request parameter: {'name': 'suishouxiede', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-17 18:12:14,002 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request method: POST
+2023-05-17 18:12:14,003 - connectionpool.py - DEBUG: Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+2023-05-17 18:12:14,650 - connectionpool.py - DEBUG: http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/portfolios HTTP/1.1" 400 None
+2023-05-17 18:12:14,656 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py - Request time：0.6509678363800049seconds
+2023-05-17 18:12:14,673 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+2023-05-17 18:12:14,674 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+2023-05-17 18:12:15,686 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.9690625
+2023-05-17 18:12:15,686 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.11377329237949899
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.20479192628309822
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.4194683778769716
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,687 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.9690625
+2023-05-17 18:12:15,688 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:15,688 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:15,688 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:15,688 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:15,688 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:15,688 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:15,688 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:15,695 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:15,695 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:15,697 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:15,697 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:15,698 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:15,698 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.020209729567411006
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.03371060514948118
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.0
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:15,708 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.500434098055936
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:15,709 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.0
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.0
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.0
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:15,718 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.4813907327834522
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:15,719 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:15,723 - writeLogs.py - DEBUG: 这只是setup的function
+2023-05-17 18:12:15,728 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\initializePremiseData.py - 执行前置接口测试用例：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {}, 'BGC1']], 'function': {'func_setup_test': {'a': 'test'}}}, 'teardown': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {'name': '${resBGC1_data_1}'}, 'BGC1']], 'function': {'func_teardown_test': {'b': 'test down'}}}}
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,728 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {}, 'BGC1']], 'function': {'func_setup_test': {'a': 'test'}}}, 'teardown': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {'name': '${resBGC1_data_1}'}, 'BGC1']], 'function': {'func_teardown_test': {'b': 'test down'}}}}
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,729 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,730 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,730 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,730 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:15,730 - writeLogs.py - DEBUG: 请求参数处理结果：{'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+2023-05-17 18:12:15,730 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+2023-05-17 18:12:15,730 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request interface：/itg/rest2/businessGoals
+2023-05-17 18:12:15,730 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request address：http://ppmsh03.hpeswlab.net:39880//itg/rest2/businessGoals
+2023-05-17 18:12:15,730 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request header: {}
+2023-05-17 18:12:15,731 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request parameter: {'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+2023-05-17 18:12:15,731 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request method: POST
+2023-05-17 18:12:15,732 - connectionpool.py - DEBUG: Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+2023-05-17 18:12:16,173 - connectionpool.py - DEBUG: http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/businessGoals HTTP/1.1" 500 None
+2023-05-17 18:12:16,174 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py - Request time：0.44298601150512695seconds
+2023-05-17 18:12:16,182 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+2023-05-17 18:12:16,183 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+2023-05-17 18:12:17,197 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,197 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,198 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,198 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,198 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,198 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,198 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,199 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,199 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,199 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,199 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,199 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,199 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,199 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,200 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,201 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: 请求参数处理结果：{'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+2023-05-17 18:12:17,202 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,203 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,204 - writeLogs.py - DEBUG: 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Accept': 'application/json'}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {}, 'BGC1']], 'function': {'func_setup_test': {'a': 'test'}}}, 'teardown': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {'name': '${resBGC1_data_1}'}, 'BGC1']], 'function': {'func_teardown_test': {'b': 'test down'}}}}
+2023-05-17 18:12:17,205 - writeLogs.py - DEBUG: 获取关联键列表:
+[]
+2023-05-17 18:12:17,205 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,205 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,205 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,205 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:17,205 - writeLogs.py - DEBUG: 期望返回处理结果：[['eq', 'version', 0], ['gt', 'id', 0]]
+2023-05-17 18:12:17,205 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+2023-05-17 18:12:17,206 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request interface：/itg/rest2/businessGoals
+2023-05-17 18:12:17,206 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request address：http://ppmsh03.hpeswlab.net:39880//itg/rest2/businessGoals
+2023-05-17 18:12:17,206 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request header: {'Accept': 'application/json'}
+2023-05-17 18:12:17,206 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request parameter: {'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+2023-05-17 18:12:17,206 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request method: POST
+2023-05-17 18:12:17,207 - connectionpool.py - DEBUG: Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+2023-05-17 18:12:17,653 - connectionpool.py - DEBUG: http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/businessGoals HTTP/1.1" 500 None
+2023-05-17 18:12:17,656 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py - Request time：0.44797325134277344seconds
+2023-05-17 18:12:17,668 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+2023-05-17 18:12:17,669 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+2023-05-17 18:12:18,681 - writeLogs.py - DEBUG: 'CustomLogger' object has no attribute 'exception'
+2023-05-17 18:12:18,681 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,681 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,682 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,682 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,682 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,682 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,687 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,687 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,687 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,687 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,687 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,687 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:18,688 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+2023-05-17 18:12:18,689 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request interface：/itg/rest2/portfolios
+2023-05-17 18:12:18,689 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request address：http://ppmsh03.hpeswlab.net:39880//itg/rest2/portfolios
+2023-05-17 18:12:18,689 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request header: {}
+2023-05-17 18:12:18,689 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request parameter: {'name': '${resBGC1_data_1}', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-17 18:12:18,689 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request method: POST
+2023-05-17 18:12:18,690 - connectionpool.py - DEBUG: Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+2023-05-17 18:12:19,107 - connectionpool.py - DEBUG: http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/portfolios HTTP/1.1" 400 None
+2023-05-17 18:12:19,111 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py - Request time：0.41999101638793945seconds
+2023-05-17 18:12:19,130 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+2023-05-17 18:12:19,131 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+2023-05-17 18:12:20,158 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.9690625
+2023-05-17 18:12:20,158 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:20,159 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.0
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.11377329237949899
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.20479192628309822
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.4194683778769716
+2023-05-17 18:12:20,160 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.9690625
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,161 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,165 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:20,165 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:20,167 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:20,167 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:20,170 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:20,170 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:20,176 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.020209729567411006
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.03371060514948118
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.500434098055936
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,177 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,178 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,178 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,178 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,178 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,178 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,178 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,178 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:20,184 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.4813907327834522
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,185 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,188 - writeLogs.py - DEBUG: 这只是teardown的function
+2023-05-17 18:12:20,190 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,190 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,190 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,190 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,190 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,190 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.9690625
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.0
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.11377329237949899
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.20479192628309822
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:20,196 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.4194683778769716
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.9690625
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,197 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,199 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:20,200 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:20,201 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:20,201 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:20,202 - universaldetector.py - DEBUG: no data received!
+2023-05-17 18:12:20,202 - universaldetector.py - DEBUG: no probers hit minimum threshold
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.020209729567411006
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.03371060514948118
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.0
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.500434098055936
+2023-05-17 18:12:20,209 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,210 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: windows-1251 Russian confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: KOI8-R Russian confidence = 0.01
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2023-05-17 18:12:20,216 - charsetgroupprober.py - DEBUG: MacCyrillic Russian confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: IBM866 Russian confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: IBM855 Russian confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: windows-1253 Greek confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: TIS-620 Thai confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: ISO-8859-9 Turkish confidence = 0.4813907327834522
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: windows-1255 Hebrew confidence = 0.0
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: utf-8  confidence = 0.99
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: EUC-JP Japanese confidence = 0.01
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: GB2312 Chinese confidence = 0.01
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: EUC-KR Korean confidence = 0.01
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: CP949 Korean confidence = 0.01
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: Big5 Chinese confidence = 0.01
+2023-05-17 18:12:20,217 - charsetgroupprober.py - DEBUG: EUC-TW Taiwan confidence = 0.01
+2023-05-17 18:12:20,220 - writeLogs.py - DEBUG: 这只是teardown的function
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,225 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - DEBUG: namespace()
+2023-05-17 18:12:20,226 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+2023-05-17 18:12:20,227 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request interface：/itg/rest2/portfolios
+2023-05-17 18:12:20,227 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request address：http://ppmsh03.hpeswlab.net:39880//itg/rest2/portfolios
+2023-05-17 18:12:20,227 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request header: {}
+2023-05-17 18:12:20,227 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request parameter: {'name': '${resBGC1_data_1}', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-17 18:12:20,227 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request method: POST
+2023-05-17 18:12:20,228 - connectionpool.py - DEBUG: Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+2023-05-17 18:12:20,650 - connectionpool.py - DEBUG: http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/portfolios HTTP/1.1" 400 None
+2023-05-17 18:12:20,653 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py - Request time：0.42597436904907227seconds
+2023-05-17 18:12:20,671 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+2023-05-17 18:12:20,672 - writeLogs.py - INFO: 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - Request result: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})

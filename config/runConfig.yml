@@ -1,0 +1,50 @@
+# Run project name
+project_name: PyDemo
+
+# Running mode:
+auto_switch: 1
+# 0 - Do not enable automatic test case generation and run tests directly
+# 1 - Automatically generate test scripts based on manual use cases, and then run tests
+
+
+# Scan test case directory (useful only if auto_switch=1) (script re will be performed for use cases where no test script has been written)
+scan_dir: ""
+
+# Use fuzzy matching test cases (blank matches all)
+pattern: "Sync_portfolio_hierarchy_info_to_Octane_product_filed"
+
+# Number of concurrent threads executing (0 means disabled)
+process: 0
+
+# Number of failed retries (0 indicates no retries)
+reruns: 0
+
+# Maximum number of failures allowed in the current round (if you exceed this number, end the test immediately)
+maxfail: 200
+
+# Interface call interval (s)
+interval: 1
+
+# skip the use case set . Such as: test_ContractCreateByCategory yaml this use case set, is included in the list below written ["TestContractCreateByCategory "] can skip multiple commas
+skip_classes:
+#  - TestBusinessgoalcreate
+
+skip_methods:
+#  {"TestBusinessgoalcreate": ["test_ParentGoalWithPrivateKPI"]}
+
+
+Description of verification methods of test results (there are 7 methods) :
+
+# no_check: no check is performed
+
+# check_code: indicates only the return code of the interface
+
+# check_json: indicates the return code of the check interface, and compares the return result with the json format (default).
+
+# entirely_check: Check interface return code, complete comparison return result
+
+# regular_check: The regular_check interface returns the code, and the regular_check interface returns the result
+
+# check_db: verifies the database
+
+# check_by_other_api:

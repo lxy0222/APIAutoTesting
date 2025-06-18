@@ -1,0 +1,756 @@
+2023-05-24 11:31:06,703 - writeLogs.py - INFO: file：startup.py - 根据手工编写用例，自动生成测试脚本，然后运行测试！
+2023-05-24 11:31:06,973 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-05-24 11:31:07,770 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-05-24 11:31:07,776 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-05-24 11:31:07,780 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-05-24 11:31:07,783 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-05-24 11:31:07,786 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-05-24 11:31:07,797 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-24 11:31:07,799 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-05-24 11:31:07,800 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-05-24 11:31:07,803 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-05-24 11:31:07,804 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-05-24 11:31:07,806 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-05-24 11:31:07,809 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-05-24 11:31:07,811 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-05-24 11:31:07,812 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-05-24 11:31:07,813 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-05-24 11:31:07,815 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-05-24 11:31:07,817 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-05-24 11:31:07,820 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-05-24 11:31:07,822 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:31:07,822 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-05-24 11:31:07,823 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-05-24 11:31:07,825 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-05-24 11:31:07,828 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-05-24 11:31:07,830 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:31:07,830 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-05-24 11:31:07,833 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-05-24 11:31:07,835 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-05-24 11:31:07,837 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-05-24 11:31:07,839 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-05-24 11:31:07,839 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-05-24 11:31:07,841 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-05-24 11:31:07,846 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-05-24 11:31:07,850 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-05-24 11:31:07,855 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-05-24 11:31:07,857 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:31:07,857 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:31:07,857 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-05-24 11:31:07,862 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-05-24 11:31:07,863 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:31:07,906 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:31:07,906 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,907 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: test info processing result：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:07,908 - writeLogs.py - DEBUG: parameter processing result：{'name': 'ws_portfolio_1684899067000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:31:07,909 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:31:07,909 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/portfolios
+2023-05-24 11:31:07,909 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/portfolios
+2023-05-24 11:31:07,910 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:31:07,910 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'name': 'ws_portfolio_1684899067000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:31:07,910 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:31:07,911 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:31:11,579 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/portfolios HTTP/1.1" 200 None
+2023-05-24 11:31:11,583 - writeLogs.py - INFO: file：apiMethod.py - Request time：3.6709816455841064seconds
+2023-05-24 11:31:11,592 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000860, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_portfolio_1684899067000'}})
+2023-05-24 11:31:11,592 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000860, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_portfolio_1684899067000'}})
+2023-05-24 11:31:12,605 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,605 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: test info processing result：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:12,606 - writeLogs.py - DEBUG: parameter processing result：{'name': 'ws_sub_portfolio_1684899072000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:31:12,606 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:31:12,606 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/portfolios
+2023-05-24 11:31:12,607 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/portfolios
+2023-05-24 11:31:12,607 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:31:12,607 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'name': 'ws_sub_portfolio_1684899072000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:31:12,607 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:31:12,608 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:31:13,400 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/portfolios HTTP/1.1" 200 None
+2023-05-24 11:31:13,401 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.7939798831939697seconds
+2023-05-24 11:31:13,410 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000861, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_sub_portfolio_1684899072000'}})
+2023-05-24 11:31:13,410 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000861, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_sub_portfolio_1684899072000'}})
+2023-05-24 11:31:14,416 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False}
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,417 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,418 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,418 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,418 - writeLogs.py - DEBUG: test info processing result：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/portfolios/3000860/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False}
+2023-05-24 11:31:14,418 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:14,418 - writeLogs.py - DEBUG: parameter processing result：{'childPortfolioId': '3000861'}
+2023-05-24 11:31:14,418 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:31:14,419 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/portfolios/3000860/contents/subPortfolios
+2023-05-24 11:31:14,419 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/portfolios/3000860/contents/subPortfolios
+2023-05-24 11:31:14,419 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:31:14,419 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'childPortfolioId': '3000861'}
+2023-05-24 11:31:14,419 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:31:14,420 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:31:15,158 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/portfolios/3000860/contents/subPortfolios HTTP/1.1" 200 None
+2023-05-24 11:31:15,159 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.7390241622924805seconds
+2023-05-24 11:31:15,168 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {})
+2023-05-24 11:31:15,168 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {})
+2023-05-24 11:31:16,179 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': False}, 'teardown': {'premise': False, 'function': False}}
+2023-05-24 11:31:16,180 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': False}, 'teardown': {'premise': False, 'function': False}}
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,181 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:16,182 - writeLogs.py - DEBUG: parameter processing result：{'businessGoal': {'name': 'ws_bg_1684899076000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000860', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': 0, 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:31:16,182 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:31:16,183 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/businessGoals/bgKpi
+2023-05-24 11:31:16,183 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/businessGoals/bgKpi
+2023-05-24 11:31:16,183 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:31:16,183 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'businessGoal': {'name': 'ws_bg_1684899076000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000860', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': 0, 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:31:16,183 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:31:16,184 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:31:16,943 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/businessGoals/bgKpi HTTP/1.1" 200 None
+2023-05-24 11:31:16,944 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.7609653472900391seconds
+2023-05-24 11:31:16,953 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30324, 'kpiId': 30263, 'name': 'ws_bg_1684899076000', 'optimizeGoal': True, 'ownerId': 1, 'portfolioId': 3000860, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:31:16,953 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30324, 'kpiId': 30263, 'name': 'ws_bg_1684899076000', 'optimizeGoal': True, 'ownerId': 1, 'portfolioId': 3000860, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,959 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,960 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,961 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: parameter processing result：{'businessGoal': {'name': 'ws_bg_1684899077000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000861', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': '30324', 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,962 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,963 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': False}, 'teardown': {'premise': False, 'function': False}}
+2023-05-24 11:31:17,963 - writeLogs.py - DEBUG: Gets a list of association keys:
+[]
+2023-05-24 11:31:17,963 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,963 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,963 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:17,963 - writeLogs.py - DEBUG: desired processing result：[['eq', '$.status', 'NOTSTART']]
+2023-05-24 11:31:17,963 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:31:17,963 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/businessGoals/bgKpi
+2023-05-24 11:31:17,964 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/businessGoals/bgKpi
+2023-05-24 11:31:17,964 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:31:17,964 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'businessGoal': {'name': 'ws_bg_1684899077000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000861', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': '30324', 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:31:17,964 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:31:17,965 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:31:18,819 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/businessGoals/bgKpi HTTP/1.1" 200 None
+2023-05-24 11:31:18,824 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.8589982986450195seconds
+2023-05-24 11:31:18,833 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30325, 'kpiId': 30264, 'name': 'ws_bg_1684899077000', 'optimizeGoal': True, 'ownerId': 1, 'parentBusinessGoalId': 30324, 'portfolioId': 3000861, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:31:18,833 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30325, 'kpiId': 30264, 'name': 'ws_bg_1684899077000', 'optimizeGoal': True, 'ownerId': 1, 'parentBusinessGoalId': 30324, 'portfolioId': 3000861, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,848 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,849 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'http://10.168.82.41:39090/', 'method': 'GET', 'address': '/itg/rest2/businessGoals/30325/view', 'mime_type': None, 'headers': {'Accept': 'application/json'}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': None, 'teardown': {'premise': False, 'function': False}}
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: Gets a list of association keys:
+[]
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:19,850 - writeLogs.py - DEBUG: desired processing result：[['eq', '$.status', 'NOTSTART']]
+2023-05-24 11:31:19,851 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:31:19,851 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/businessGoals/30325/view
+2023-05-24 11:31:19,851 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/businessGoals/30325/view
+2023-05-24 11:31:19,851 - writeLogs.py - INFO: file：apiSend.py - Request header: {'Accept': 'application/json'}
+2023-05-24 11:31:19,851 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {}
+2023-05-24 11:31:19,852 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-05-24 11:31:19,853 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:31:20,623 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "GET //itg/rest2/businessGoals/30325/view HTTP/1.1" 200 None
+2023-05-24 11:31:20,624 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.772024393081665seconds
+2023-05-24 11:31:20,632 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'businessGoalKpi': True, 'description': '', 'id': 30325, 'kpiCurrencyCode': 'USD', 'kpiId': 30264, 'kpiLatestValue': 0.0, 'kpiName': 'ws_bg_1684899077000', 'kpiType': 'MONEY', 'name': 'ws_bg_1684899077000', 'optimizationDirection': 'MAX', 'optimizeGoal': True, 'ownerId': 1, 'ownerName': 'Admin User', 'parentBusinessGoalId': 30324, 'parentBusinessGoalName': 'ws_bg_1684899076000', 'portfolioId': 3000861, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:31:21,648 - writeLogs.py - DEBUG: 'NoneType' object is not subscriptable
+2023-05-24 11:31:21,648 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:21,648 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:21,661 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:31:21,661 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:46:40,270 - writeLogs.py - INFO: file：startup.py - 根据手工编写用例，自动生成测试脚本，然后运行测试！
+2023-05-24 11:46:40,672 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-05-24 11:46:41,528 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-05-24 11:46:41,535 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-05-24 11:46:41,540 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-05-24 11:46:41,543 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-05-24 11:46:41,545 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-05-24 11:46:41,548 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-24 11:46:41,550 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-05-24 11:46:41,551 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-05-24 11:46:41,555 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-05-24 11:46:41,557 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-05-24 11:46:41,558 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-05-24 11:46:41,563 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-05-24 11:46:41,565 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-05-24 11:46:41,566 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-05-24 11:46:41,567 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-05-24 11:46:41,570 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-05-24 11:46:41,572 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-05-24 11:46:41,575 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-05-24 11:46:41,577 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:46:41,577 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-05-24 11:46:41,579 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-05-24 11:46:41,581 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-05-24 11:46:41,585 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-05-24 11:46:41,587 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:46:41,587 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-05-24 11:46:41,590 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-05-24 11:46:41,593 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-05-24 11:46:41,597 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-05-24 11:46:41,601 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-05-24 11:46:41,603 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-05-24 11:46:41,606 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-05-24 11:46:41,613 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-05-24 11:46:41,617 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-05-24 11:46:41,624 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-05-24 11:46:41,626 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:46:41,627 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:46:41,627 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-05-24 11:46:41,633 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-05-24 11:46:41,635 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 11:48:14,545 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:48:14,545 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,548 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,549 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,549 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,549 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,549 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,549 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,549 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,550 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,550 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,550 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,550 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,550 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,550 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,550 - writeLogs.py - DEBUG: test info processing result：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:48:14,551 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,551 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,551 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,551 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:14,552 - writeLogs.py - DEBUG: parameter processing result：{'name': 'ws_portfolio_1684900094000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:48:14,553 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:48:14,553 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/portfolios
+2023-05-24 11:48:14,553 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/portfolios
+2023-05-24 11:48:14,554 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:48:14,554 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'name': 'ws_portfolio_1684900094000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:48:14,554 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:48:14,557 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:48:15,596 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/portfolios HTTP/1.1" 200 None
+2023-05-24 11:48:15,601 - writeLogs.py - INFO: file：apiMethod.py - Request time：1.0460023880004883seconds
+2023-05-24 11:48:15,620 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000862, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_portfolio_1684900094000'}})
+2023-05-24 11:48:15,620 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000862, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_portfolio_1684900094000'}})
+2023-05-24 11:48:47,499 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:48:47,499 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,500 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,500 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,500 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,500 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,500 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,500 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,500 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,501 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,501 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,501 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,501 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,501 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,501 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,502 - writeLogs.py - DEBUG: test info processing result：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+2023-05-24 11:48:47,502 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,502 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,502 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,502 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:48:47,502 - writeLogs.py - DEBUG: parameter processing result：{'name': 'ws_sub_portfolio_1684900127000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:48:48,713 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:48:48,714 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/portfolios
+2023-05-24 11:48:48,714 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/portfolios
+2023-05-24 11:48:48,715 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:48:48,715 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'name': 'ws_sub_portfolio_1684900127000', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+2023-05-24 11:48:48,715 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:48:48,717 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:48:49,648 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/portfolios HTTP/1.1" 200 None
+2023-05-24 11:48:49,651 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.9352798461914062seconds
+2023-05-24 11:48:49,661 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000863, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_sub_portfolio_1684900127000'}})
+2023-05-24 11:48:49,662 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'data': {'id': 3000863, 'managers': [{'userId': 1, 'fullName': 'Admin User'}], 'name': 'ws_sub_portfolio_1684900127000'}})
+2023-05-24 11:54:20,390 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False}
+2023-05-24 11:54:20,391 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,391 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,391 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,391 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,391 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,391 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,392 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,392 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,392 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,392 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,392 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,393 - writeLogs.py - DEBUG: test info processing result：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/portfolios/3000862/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False}
+2023-05-24 11:54:20,393 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:20,393 - writeLogs.py - DEBUG: parameter processing result：{'childPortfolioId': '3000863'}
+2023-05-24 11:54:21,035 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:54:21,036 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/portfolios/3000862/contents/subPortfolios
+2023-05-24 11:54:21,036 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/portfolios/3000862/contents/subPortfolios
+2023-05-24 11:54:21,036 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:54:21,037 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'childPortfolioId': '3000863'}
+2023-05-24 11:54:21,037 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:54:21,039 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:54:21,916 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/portfolios/3000862/contents/subPortfolios HTTP/1.1" 200 None
+2023-05-24 11:54:21,920 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.8820042610168457seconds
+2023-05-24 11:54:21,931 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {})
+2023-05-24 11:54:21,931 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {})
+2023-05-24 11:54:29,579 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': False}, 'teardown': {'premise': False, 'function': False}}
+2023-05-24 11:54:29,580 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,580 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,581 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,582 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,582 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,582 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,582 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,582 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,582 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': False}, 'teardown': {'premise': False, 'function': False}}
+2023-05-24 11:54:29,582 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,583 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,583 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,583 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,583 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,583 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,583 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,583 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,584 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,584 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,584 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,584 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,584 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:29,584 - writeLogs.py - DEBUG: parameter processing result：{'businessGoal': {'name': 'ws_bg_1684900469000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000862', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': 0, 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:54:30,240 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:54:30,241 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/businessGoals/bgKpi
+2023-05-24 11:54:30,242 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/businessGoals/bgKpi
+2023-05-24 11:54:30,242 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:54:30,242 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'businessGoal': {'name': 'ws_bg_1684900469000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000862', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': 0, 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:54:30,242 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:54:30,245 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:54:31,248 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/businessGoals/bgKpi HTTP/1.1" 200 None
+2023-05-24 11:54:31,252 - writeLogs.py - INFO: file：apiMethod.py - Request time：1.007997751235962seconds
+2023-05-24 11:54:31,270 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30326, 'kpiId': 30265, 'name': 'ws_bg_1684900469000', 'optimizeGoal': True, 'ownerId': 1, 'portfolioId': 3000862, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:54:31,270 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30326, 'kpiId': 30265, 'name': 'ws_bg_1684900469000', 'optimizeGoal': True, 'ownerId': 1, 'portfolioId': 3000862, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:54:35,021 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,023 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,023 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,024 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,024 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,024 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,025 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,025 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,025 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,026 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,026 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,026 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,027 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,028 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,028 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,029 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,029 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,029 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,029 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,030 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,030 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,031 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,031 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,031 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,031 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,032 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,033 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,033 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,033 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,033 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,033 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,034 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,034 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,034 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,034 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,034 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,034 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,034 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,035 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,036 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,036 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,036 - writeLogs.py - DEBUG: parameter processing result：{'businessGoal': {'name': 'ws_bg_1684900475000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000863', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': '30326', 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:54:35,036 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,036 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,036 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,036 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,037 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,038 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,038 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,038 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,038 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'http://10.168.82.41:39090/', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': False}, 'teardown': {'premise': False, 'function': False}}
+2023-05-24 11:54:35,038 - writeLogs.py - DEBUG: Gets a list of association keys:
+[]
+2023-05-24 11:54:35,038 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,038 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,039 - writeLogs.py - DEBUG: namespace()
+2023-05-24 11:54:35,039 - writeLogs.py - DEBUG: desired processing result：[['eq', '$.status', 'NOTSTART']]
+2023-05-24 11:54:35,039 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-05-24 11:54:35,040 - writeLogs.py - INFO: file：apiSend.py - Request interface：/itg/rest2/businessGoals/bgKpi
+2023-05-24 11:54:35,040 - writeLogs.py - INFO: file：apiSend.py - Request address：http://10.168.82.41:39090//itg/rest2/businessGoals/bgKpi
+2023-05-24 11:54:35,040 - writeLogs.py - INFO: file：apiSend.py - Request header: {}
+2023-05-24 11:54:35,040 - writeLogs.py - INFO: file：apiSend.py - Request parameter: {'businessGoal': {'name': 'ws_bg_1684900475000', 'description': '', 'optimizeGoal': 'true', 'ownerId': '1', 'portfolioId': '3000863', 'startDate': '2018-05-01 00:00:00', 'parentBusinessGoalId': '30326', 'strategicThemeId': 0, 'status': 'NOTSTART'}, 'kpi': {'currencyCode': 'USD', 'optimizationDirection': 'MAX', 'type': {'value': 'MONEY', 'subValue': 'USD'}}}
+2023-05-24 11:54:35,041 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-05-24 11:54:35,043 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 10.168.82.41:39090
+2023-05-24 11:54:35,787 - connectionpool.py - DEBUG: http://10.168.82.41:39090 "POST //itg/rest2/businessGoals/bgKpi HTTP/1.1" 200 None
+2023-05-24 11:54:35,791 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.7499799728393555seconds
+2023-05-24 11:54:35,802 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30327, 'kpiId': 30266, 'name': 'ws_bg_1684900475000', 'optimizeGoal': True, 'ownerId': 1, 'parentBusinessGoalId': 30326, 'portfolioId': 3000863, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 11:54:35,802 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'description': '', 'id': 30327, 'kpiId': 30266, 'name': 'ws_bg_1684900475000', 'optimizeGoal': True, 'ownerId': 1, 'parentBusinessGoalId': 30326, 'portfolioId': 3000863, 'rank': 1, 'startDate': '2018-05-01 00:00:00', 'status': 'NOTSTART', 'strategicThemeId': 0})
+2023-05-24 12:06:42,787 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-05-24 12:06:42,802 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:42,804 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:42,804 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:42,805 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:42,805 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:42,805 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,723 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,724 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,724 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,724 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,724 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,724 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,724 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:43,724 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-05-24 12:06:43,730 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-05-24 12:06:43,766 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-05-24 12:06:43,769 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-05-24 12:06:43,785 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-05-24 12:06:43,788 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-24 12:06:43,801 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-05-24 12:06:43,802 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-05-24 12:06:43,815 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-05-24 12:06:43,817 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-05-24 12:06:43,828 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-05-24 12:06:43,831 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-05-24 12:06:43,843 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-05-24 12:06:43,844 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-05-24 12:06:43,857 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-05-24 12:06:43,859 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-05-24 12:06:43,870 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-05-24 12:06:43,873 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-05-24 12:06:43,886 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 12:06:43,886 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-05-24 12:06:43,887 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-05-24 12:06:43,900 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-05-24 12:06:43,904 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-05-24 12:06:43,917 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 12:06:43,917 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-05-24 12:06:43,920 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-05-24 12:06:43,933 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-05-24 12:06:43,935 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-05-24 12:06:43,959 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-05-24 12:06:43,960 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-05-24 12:06:43,973 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-05-24 12:06:43,980 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-05-24 12:06:43,995 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-05-24 12:06:44,001 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-05-24 12:06:44,013 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 12:06:44,014 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 12:06:44,014 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-05-24 12:06:44,019 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-05-24 12:06:44,033 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-05-24 12:06:44,033 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:44,034 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.address`.
+2023-05-24 12:06:44,039 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `zh_CN`.
+2023-05-24 12:06:44,054 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+2023-05-24 12:06:44,058 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,058 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.bank`.
+2023-05-24 12:06:44,060 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-24 12:06:44,060 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+2023-05-24 12:06:44,061 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,061 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.color`.
+2023-05-24 12:06:44,063 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,063 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.company`.
+2023-05-24 12:06:44,067 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `zh_CN`.
+2023-05-24 12:06:44,079 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+2023-05-24 12:06:44,080 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,080 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.currency`.
+2023-05-24 12:06:44,082 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,082 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+2023-05-24 12:06:44,085 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,085 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,085 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.geo`.
+2023-05-24 12:06:44,086 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,086 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.internet`.
+2023-05-24 12:06:44,090 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `zh_CN`.
+2023-05-24 12:06:44,102 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,102 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.job`.
+2023-05-24 12:06:44,104 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `zh_CN`.
+2023-05-24 12:06:44,116 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+2023-05-24 12:06:44,118 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `zh_CN`.
+2023-05-24 12:06:44,129 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.misc`.
+2023-05-24 12:06:44,130 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,130 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.person`.
+2023-05-24 12:06:44,135 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `zh_CN`.
+2023-05-24 12:06:44,147 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+2023-05-24 12:06:44,153 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+2023-05-24 12:06:44,166 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,166 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,166 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+2023-05-24 12:06:44,171 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `zh_CN`.
+2023-05-24 12:06:44,182 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,182 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:44,182 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.address`.
+2023-05-24 12:06:44,188 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `zh_CN`.
+2023-05-24 12:06:44,188 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+2023-05-24 12:06:44,190 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,190 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.bank`.
+2023-05-24 12:06:44,193 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-24 12:06:44,193 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+2023-05-24 12:06:44,194 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,194 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.color`.
+2023-05-24 12:06:44,195 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,195 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.company`.
+2023-05-24 12:06:44,199 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `zh_CN`.
+2023-05-24 12:06:44,199 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+2023-05-24 12:06:44,200 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,200 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.currency`.
+2023-05-24 12:06:44,201 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,201 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+2023-05-24 12:06:44,204 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,204 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,204 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.geo`.
+2023-05-24 12:06:44,205 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,205 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.internet`.
+2023-05-24 12:06:44,209 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `zh_CN`.
+2023-05-24 12:06:44,209 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,209 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.job`.
+2023-05-24 12:06:44,212 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `zh_CN`.
+2023-05-24 12:06:44,212 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+2023-05-24 12:06:44,214 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `zh_CN`.
+2023-05-24 12:06:44,214 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.misc`.
+2023-05-24 12:06:44,215 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,215 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.person`.
+2023-05-24 12:06:44,220 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `zh_CN`.
+2023-05-24 12:06:44,220 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+2023-05-24 12:06:44,225 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+2023-05-24 12:06:44,225 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,225 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,225 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+2023-05-24 12:06:44,230 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `zh_CN`.
+2023-05-24 12:06:44,230 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,230 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:44,230 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.address`.
+2023-05-24 12:06:44,235 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `zh_CN`.
+2023-05-24 12:06:44,235 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+2023-05-24 12:06:44,238 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,238 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.bank`.
+2023-05-24 12:06:44,240 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-05-24 12:06:44,241 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+2023-05-24 12:06:44,241 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,242 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.color`.
+2023-05-24 12:06:44,243 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,243 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.company`.
+2023-05-24 12:06:44,246 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `zh_CN`.
+2023-05-24 12:06:44,247 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+2023-05-24 12:06:44,247 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,247 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.currency`.
+2023-05-24 12:06:44,249 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,249 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+2023-05-24 12:06:44,252 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,252 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,252 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.geo`.
+2023-05-24 12:06:44,253 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,253 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.internet`.
+2023-05-24 12:06:44,256 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `zh_CN`.
+2023-05-24 12:06:44,257 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,257 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.job`.
+2023-05-24 12:06:44,259 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `zh_CN`.
+2023-05-24 12:06:44,259 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+2023-05-24 12:06:44,261 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `zh_CN`.
+2023-05-24 12:06:44,261 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.misc`.
+2023-05-24 12:06:44,262 - factory.py - DEBUG: Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+2023-05-24 12:06:44,262 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.person`.
+2023-05-24 12:06:44,267 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `zh_CN`.
+2023-05-24 12:06:44,267 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+2023-05-24 12:06:44,272 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+2023-05-24 12:06:44,272 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,273 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,273 - factory.py - DEBUG: Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+2023-05-24 12:06:44,277 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `zh_CN`.
+2023-05-24 12:06:44,277 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2023-05-24 12:06:44,277 - writeLogs.py - DEBUG: namespace()
+2023-05-24 12:06:44,277 - writeLogs.py - DEBUG: namespace()
+2023-05-30 10:10:23,069 - writeLogs.py - DEBUG: namespace()
+2023-05-30 10:10:23,070 - writeLogs.py - DEBUG: namespace()
+2023-05-30 10:10:23,402 - writeLogs.py - DEBUG: namespace()
+2023-05-30 10:10:23,402 - writeLogs.py - DEBUG: namespace()

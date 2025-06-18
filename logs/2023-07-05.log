@@ -1,0 +1,616 @@
+2023-07-05 15:57:30,001 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 15:58:06,685 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 15:59:08,874 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 15:59:09,088 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 16:00:14,452 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 16:00:14,466 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 16:00:14,973 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 16:00:14,977 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 16:00:15,476 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 16:00:15,478 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 16:00:15,979 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 16:00:15,981 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 16:00:16,593 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 16:00:16,596 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 16:00:17,105 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 16:00:17,109 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 16:00:17,614 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 16:00:17,615 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 16:00:18,171 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 16:00:18,173 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 16:00:18,770 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 16:00:18,776 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 16:00:19,239 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:00:19,240 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 16:00:19,242 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 16:00:19,798 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 16:00:19,807 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 16:00:20,401 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:00:20,401 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 16:00:20,404 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 16:00:20,794 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 16:00:20,799 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 16:00:21,219 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 16:00:21,221 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 16:00:21,699 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 16:00:21,705 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 16:00:22,212 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 16:00:22,224 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 16:00:22,241 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:00:22,241 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:00:22,241 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 16:00:22,246 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 16:00:22,777 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:01:53,707 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 16:01:53,967 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 16:01:54,654 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 16:01:54,659 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 16:01:54,663 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 16:01:54,666 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 16:01:54,667 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 16:01:54,670 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 16:01:54,672 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 16:01:54,673 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 16:01:54,675 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 16:01:54,676 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 16:01:54,678 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 16:01:54,681 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 16:01:54,683 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 16:01:54,683 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 16:01:54,685 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 16:01:54,687 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 16:01:54,689 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 16:01:54,691 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 16:01:54,693 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:01:54,693 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 16:01:54,694 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 16:01:54,695 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 16:01:54,699 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 16:01:54,700 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:01:54,700 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 16:01:54,703 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 16:01:54,705 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 16:01:54,706 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 16:01:54,708 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 16:01:54,709 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 16:01:54,711 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 16:01:54,716 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 16:01:54,719 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 16:01:54,724 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 16:01:54,726 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:01:54,726 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:01:54,726 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 16:01:54,730 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 16:01:54,732 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:04:22,042 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 16:04:22,279 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 16:04:22,948 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 16:04:22,953 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 16:04:22,958 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 16:04:22,961 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 16:04:22,963 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 16:04:22,965 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 16:04:22,967 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 16:04:22,969 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 16:04:22,971 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 16:04:22,973 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 16:04:22,974 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 16:04:22,978 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 16:04:22,980 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 16:04:22,981 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 16:04:22,982 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 16:04:22,984 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 16:04:22,986 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 16:04:22,989 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 16:04:22,991 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:04:22,991 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 16:04:22,992 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 16:04:22,994 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 16:04:22,998 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 16:04:23,000 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:04:23,000 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 16:04:23,003 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 16:04:23,005 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 16:04:23,007 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 16:04:23,009 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 16:04:23,010 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 16:04:23,012 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 16:04:23,017 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 16:04:23,021 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 16:04:23,027 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 16:04:23,029 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:04:23,029 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:04:23,029 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 16:04:23,034 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 16:04:23,036 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:04:23,069 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 16:04:23,070 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'http://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 16:04:23,070 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 16:04:24,621 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 16:04:24,622 - writeLogs.py - INFO: file：apiSend.py - Host：http://jingrantest.dev.mfspm.com
+2023-07-05 16:04:24,622 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 16:04:24,622 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 16:04:24,622 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 16:04:24,622 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 16:04:24,623 - connectionpool.py - DEBUG: Starting new HTTP connection (1): jingrantest.dev.mfspm.com:80
+2023-07-05 16:04:25,059 - connectionpool.py - DEBUG: http://jingrantest.dev.mfspm.com:80 "GET /itg/rest2/dm/requestTypes HTTP/1.1" 200 2982
+2023-07-05 16:04:25,443 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.4380218982696533seconds
+2023-07-05 16:04:25,443 - writeLogs.py - ERROR: file：apiMethod.py - ERROR
+Traceback (most recent call last):
+  File "E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py", line 165, in get
+    response.content)
+  File "D:\env\python3.7\lib\site-packages\xmltodict.py", line 378, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: syntax error: line 12, column 62
+2023-07-05 16:04:25,803 - writeLogs.py - ERROR: file：apiMethod.py - syntax error: line 12, column 62
+2023-07-05 16:05:03,437 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 16:05:03,860 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 16:05:04,626 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 16:05:04,632 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 16:05:04,636 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 16:05:04,640 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 16:05:04,642 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 16:05:04,644 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 16:05:04,647 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 16:05:04,648 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 16:05:04,651 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 16:05:04,654 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 16:05:04,656 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 16:05:04,661 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 16:05:04,663 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 16:05:04,664 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 16:05:04,666 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 16:05:04,668 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 16:05:04,670 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 16:05:04,674 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 16:05:04,676 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:04,677 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 16:05:04,678 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 16:05:04,680 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 16:05:04,684 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 16:05:04,687 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:04,687 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 16:05:04,690 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 16:05:04,693 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 16:05:04,695 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 16:05:04,697 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 16:05:04,698 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 16:05:04,700 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 16:05:04,707 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 16:05:04,725 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 16:05:04,731 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 16:05:04,734 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:04,734 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:04,734 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 16:05:04,740 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 16:05:04,742 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:10,672 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 16:05:10,676 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'http://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 16:05:10,676 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 16:05:10,677 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 16:05:10,677 - writeLogs.py - INFO: file：apiSend.py - Host：http://jingrantest.dev.mfspm.com
+2023-07-05 16:05:10,678 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 16:05:10,678 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 16:05:10,678 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 16:05:10,679 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 16:05:10,681 - connectionpool.py - DEBUG: Starting new HTTP connection (1): jingrantest.dev.mfspm.com:80
+2023-07-05 16:05:11,265 - connectionpool.py - DEBUG: http://jingrantest.dev.mfspm.com:80 "GET /itg/rest2/dm/requestTypes HTTP/1.1" 200 2982
+2023-07-05 16:05:11,267 - writeLogs.py - INFO: file：apiMethod.py - Request time：0.586998701095581seconds
+2023-07-05 16:05:35,194 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 16:05:35,588 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 16:05:36,302 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 16:05:36,308 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 16:05:36,311 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 16:05:36,314 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 16:05:36,317 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 16:05:36,319 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 16:05:36,321 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 16:05:36,322 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 16:05:36,325 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 16:05:36,327 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 16:05:36,329 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 16:05:36,332 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 16:05:36,334 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 16:05:36,335 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 16:05:36,337 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 16:05:36,339 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 16:05:36,340 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 16:05:36,344 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 16:05:36,346 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:36,346 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 16:05:36,347 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 16:05:36,349 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 16:05:36,353 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 16:05:36,355 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:36,355 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 16:05:36,358 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 16:05:36,360 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 16:05:36,362 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 16:05:36,364 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 16:05:36,365 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 16:05:36,366 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 16:05:36,372 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 16:05:36,388 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 16:05:36,395 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 16:05:36,397 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:36,397 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:36,397 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 16:05:36,402 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 16:05:36,404 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 16:05:36,460 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 16:05:36,464 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 16:05:36,464 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 16:05:36,465 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 16:05:36,465 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 16:05:36,465 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 16:05:36,466 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 16:05:36,466 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 16:05:36,466 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 16:05:36,468 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443
+2023-07-05 17:10:51,186 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 17:10:51,600 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 17:10:52,397 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 17:10:52,403 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 17:10:52,407 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 17:10:52,411 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 17:10:52,412 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 17:10:52,415 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 17:10:52,417 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 17:10:52,418 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 17:10:52,421 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 17:10:52,423 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 17:10:52,425 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 17:10:52,429 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 17:10:52,431 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 17:10:52,432 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 17:10:52,433 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 17:10:52,436 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 17:10:52,437 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 17:10:52,440 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 17:10:52,443 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:10:52,443 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 17:10:52,444 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 17:10:52,446 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 17:10:52,450 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 17:10:52,451 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:10:52,452 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 17:10:52,455 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 17:10:52,456 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 17:10:52,459 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 17:10:52,461 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 17:10:52,462 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 17:10:52,464 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 17:10:52,470 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 17:10:52,486 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 17:10:52,492 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 17:10:52,494 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:10:52,495 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:10:52,495 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 17:10:52,500 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 17:10:52,502 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:10:52,560 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:10:52,564 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:10:52,564 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:10:52,565 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:10:52,566 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:10:52,566 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 17:10:52,566 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:10:52,566 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:10:52,567 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 17:10:52,569 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443
+2023-07-05 17:12:58,654 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 17:12:59,020 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 17:12:59,725 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 17:12:59,732 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 17:12:59,736 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 17:12:59,740 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 17:12:59,741 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 17:12:59,744 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 17:12:59,747 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 17:12:59,749 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 17:12:59,752 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 17:12:59,754 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 17:12:59,755 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 17:12:59,759 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 17:12:59,762 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 17:12:59,763 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 17:12:59,764 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 17:12:59,766 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 17:12:59,768 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 17:12:59,771 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 17:12:59,787 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:12:59,787 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 17:12:59,788 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 17:12:59,790 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 17:12:59,795 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 17:12:59,797 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:12:59,798 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 17:12:59,801 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 17:12:59,803 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 17:12:59,805 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 17:12:59,807 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 17:12:59,808 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 17:12:59,810 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 17:12:59,816 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 17:12:59,820 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 17:12:59,826 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 17:12:59,828 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:12:59,829 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:12:59,829 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 17:12:59,834 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 17:12:59,836 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:12:59,892 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:12:59,896 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:12:59,896 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:12:59,897 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:12:59,898 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:12:59,898 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 17:12:59,898 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:12:59,898 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:12:59,899 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 17:12:59,901 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443
+2023-07-05 17:14:07,046 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 17:14:07,416 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 17:14:09,827 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 17:14:09,833 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 17:14:09,837 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 17:14:09,840 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 17:14:09,842 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 17:14:09,845 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 17:14:09,847 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 17:14:09,848 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 17:14:09,851 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 17:14:09,853 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 17:14:09,855 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 17:14:09,858 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 17:14:09,860 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 17:14:09,861 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 17:14:09,863 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 17:14:09,865 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 17:14:09,866 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 17:14:09,870 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 17:14:09,884 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:09,884 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 17:14:09,885 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 17:14:09,887 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 17:14:09,892 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 17:14:09,893 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:09,894 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 17:14:09,897 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 17:14:09,899 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 17:14:09,901 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 17:14:09,903 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 17:14:09,904 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 17:14:09,906 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 17:14:09,913 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 17:14:09,916 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 17:14:09,922 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 17:14:09,925 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:09,925 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:09,925 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 17:14:09,930 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 17:14:09,932 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:09,989 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:14:09,993 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:14:09,993 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:14:09,994 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:14:09,994 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:14:09,994 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 17:14:09,995 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:14:09,995 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:14:09,995 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 17:14:21,924 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 17:14:22,319 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 17:14:23,059 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 17:14:23,066 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 17:14:23,070 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 17:14:23,073 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 17:14:23,075 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 17:14:23,078 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 17:14:23,080 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 17:14:23,081 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 17:14:23,085 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 17:14:23,087 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 17:14:23,088 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 17:14:23,092 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 17:14:23,094 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 17:14:23,095 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 17:14:23,097 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 17:14:23,099 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 17:14:23,101 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 17:14:23,104 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 17:14:23,117 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:23,117 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 17:14:23,119 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 17:14:23,121 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 17:14:23,126 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 17:14:23,127 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:23,128 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 17:14:23,131 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 17:14:23,132 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 17:14:23,136 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 17:14:23,138 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 17:14:23,139 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 17:14:23,141 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 17:14:23,147 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 17:14:23,151 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 17:14:23,158 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 17:14:23,159 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:23,160 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:23,160 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 17:14:23,165 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 17:14:23,167 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:14:23,227 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:14:23,231 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:14:23,232 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:14:23,233 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:14:23,233 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:14:23,234 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 17:14:23,234 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:14:23,234 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:14:23,234 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 17:45:41,306 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 17:45:41,585 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 17:45:43,093 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 17:45:43,098 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 17:45:43,101 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 17:45:43,104 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 17:45:43,105 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 17:45:43,108 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 17:45:43,109 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 17:45:43,110 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 17:45:43,112 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 17:45:43,113 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 17:45:43,115 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 17:45:43,118 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 17:45:43,119 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 17:45:43,120 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 17:45:43,121 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 17:45:43,123 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 17:45:43,131 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 17:45:43,134 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 17:45:43,136 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:45:43,136 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 17:45:43,137 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 17:45:43,138 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 17:45:43,142 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 17:45:43,143 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:45:43,143 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 17:45:43,146 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 17:45:43,147 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 17:45:43,149 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 17:45:43,151 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 17:45:43,152 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 17:45:43,153 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 17:45:43,162 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 17:45:43,166 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 17:45:43,172 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 17:45:43,174 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:45:43,174 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:45:43,174 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 17:45:43,179 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 17:45:43,180 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:45:43,211 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:45:43,212 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:45:43,212 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:45:43,213 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:45:43,213 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:45:43,213 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 17:45:43,214 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:45:43,214 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:45:43,214 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 17:45:43,215 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443
+2023-07-05 17:46:28,360 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 17:46:28,735 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 17:46:29,495 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 17:46:29,501 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 17:46:29,505 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 17:46:29,508 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 17:46:29,510 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 17:46:29,513 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 17:46:29,515 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 17:46:29,516 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 17:46:29,520 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 17:46:29,522 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 17:46:29,524 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 17:46:29,528 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 17:46:29,530 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 17:46:29,531 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 17:46:29,532 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 17:46:29,535 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 17:46:29,537 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 17:46:29,540 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 17:46:29,542 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:46:29,542 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 17:46:29,543 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 17:46:29,546 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 17:46:29,550 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 17:46:29,552 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:46:29,552 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 17:46:29,555 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 17:46:29,557 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 17:46:29,559 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 17:46:29,562 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 17:46:29,563 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 17:46:29,564 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 17:46:29,571 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 17:46:29,589 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 17:46:29,596 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 17:46:29,598 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:46:29,598 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:46:29,598 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 17:46:29,604 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 17:46:29,606 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:46:29,666 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:46:29,670 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:46:29,670 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:46:29,671 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:46:29,672 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:46:29,672 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 17:46:29,672 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:46:29,673 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:46:29,673 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 17:47:07,053 - writeLogs.py - INFO: file：startup.py - Automatically generate test scripts based on hand-written use cases, and then run the tests!
+2023-07-05 17:47:07,322 - factory.py - DEBUG: Not in REPL -> leaving logger event level as is.
+2023-07-05 17:47:09,578 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+2023-07-05 17:47:09,583 - factory.py - DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+2023-07-05 17:47:09,586 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-07-05 17:47:09,589 - factory.py - DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-07-05 17:47:09,590 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-07-05 17:47:09,592 - factory.py - DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-07-05 17:47:09,594 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-07-05 17:47:09,595 - factory.py - DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-07-05 17:47:09,596 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+2023-07-05 17:47:09,598 - factory.py - DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+2023-07-05 17:47:09,599 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+2023-07-05 17:47:09,602 - factory.py - DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+2023-07-05 17:47:09,604 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-07-05 17:47:09,604 - factory.py - DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-07-05 17:47:09,606 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-07-05 17:47:09,607 - factory.py - DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+2023-07-05 17:47:09,609 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-07-05 17:47:09,611 - factory.py - DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-07-05 17:47:09,612 - factory.py - DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:47:09,613 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-07-05 17:47:09,613 - factory.py - DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+2023-07-05 17:47:09,615 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-07-05 17:47:09,618 - factory.py - DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+2023-07-05 17:47:09,619 - factory.py - DEBUG: Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:47:09,620 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+2023-07-05 17:47:09,622 - factory.py - DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+2023-07-05 17:47:09,623 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-07-05 17:47:09,625 - factory.py - DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-07-05 17:47:09,627 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-07-05 17:47:09,627 - factory.py - DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+2023-07-05 17:47:09,629 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+2023-07-05 17:47:09,635 - factory.py - DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+2023-07-05 17:47:09,639 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-07-05 17:47:09,644 - factory.py - DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-07-05 17:47:09,646 - factory.py - DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:47:09,646 - factory.py - DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:47:09,647 - factory.py - DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-07-05 17:47:09,651 - factory.py - DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-07-05 17:47:09,653 - factory.py - DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-07-05 17:47:09,687 - writeLogs.py - INFO: file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:47:09,689 - writeLogs.py - DEBUG: test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+2023-07-05 17:47:09,689 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:47:09,690 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:47:09,690 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:47:09,690 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+2023-07-05 17:47:09,690 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:47:09,691 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:47:09,691 - writeLogs.py - INFO: file：apiSend.py - Request method: GET
+2023-07-05 17:47:09,692 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443
+2023-07-05 17:47:12,208 - connectionpool.py - DEBUG: https://jingrantest.dev.mfspm.com:443 "GET /itg/rest2/dm/requestTypes HTTP/1.1" 200 None
+2023-07-05 17:47:12,211 - writeLogs.py - INFO: file：apiMethod.py - Request time：2.5187430381774902seconds
+2023-07-05 17:47:12,225 - writeLogs.py - INFO: file：apiSend.py - Request result: (<Response [200]>, {'requestType': [{'id': 31410, 'name': 'Portfolio Epic', 'description': 'Epics should be used to request a new initiatives to be approved and added to the Portfolio.'}]})
+2023-07-05 17:47:13,236 - writeLogs.py - DEBUG: parameter processing result：{}
+2023-07-05 17:47:13,237 - writeLogs.py - DEBUG: test info processing result：{'epic': 'SPM', 'feature': 'END_TO_END', 'story': 'Sync_portfolio_hierarchy_info_to_Octane_product_filed', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest/dm/requests', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'setup_function': False, 'premise': False}, 'clean_up': None}
+2023-07-05 17:47:13,238 - writeLogs.py - DEBUG: desired processing result：[['equal_to', '$.name', '']]
+2023-07-05 17:47:13,239 - writeLogs.py - INFO: file：apiSend.py - ======================================================================================================================================================
+2023-07-05 17:47:13,240 - writeLogs.py - INFO: file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+2023-07-05 17:47:13,240 - writeLogs.py - INFO: file：apiSend.py - Path：/itg/rest/dm/requests
+2023-07-05 17:47:13,241 - writeLogs.py - INFO: file：apiSend.py - Headers: {}
+2023-07-05 17:47:13,241 - writeLogs.py - INFO: file：apiSend.py - Parameters: {}
+2023-07-05 17:47:13,242 - writeLogs.py - INFO: file：apiSend.py - Request method: POST
+2023-07-05 17:47:13,244 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443

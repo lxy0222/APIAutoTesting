@@ -1,0 +1,19 @@
+PyDemo:
+  host: https://jingrantest.dev.mfspm.com
+  common_user_pwd: asdf1@34
+  cookies: null
+  proxy: True
+  proxies:
+    https: http://web-proxy.us.softwaregrp.net:8080
+  dbType: postgresql
+  global_defaultRegion_id: '100381'
+  headers: func_header
+  timeout: 120
+  ADMIN_PASSWORD: &ADMIN_PASSWORD '!QAZ@WSX3edc'
+  ADMIN: &ADMIN admin
+  AUTH:
+    - *ADMIN
+    - *ADMIN_PASSWORD
+  ADMIN_FULLNAME: Admin User
+  ADMIN_USER_ID: 1
+  ENTERPRISE: Enterprise

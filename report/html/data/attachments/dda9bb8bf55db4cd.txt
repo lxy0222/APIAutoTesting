@@ -1,0 +1,62 @@
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:104 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+INFO     root:writeLogs.py:67 file：initializePremiseData.py - Execute the front interface test case：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': '${AUTH}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+DEBUG    root:writeLogs.py:64 test info processing result：{'epic': 'BusinessGoal', 'feature': 'BusinessGoalCreate', 'story': 'ParentGoalWithPrivateKPI', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest2/businessGoals/bgKpi', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': None, 'function': {'create_data': {'hierarchy': {'type': 'portfolio', 'name': 'ws_TOP_portfolio', 'strategicThemes': [{'name': 'Top_st', 'parent': '', 'color': '#6890CB', 'children': [], 'businessGoals': []}], 'children': [{'type': 'portfolio', 'name': 'ws_sub_portfolio1', 'children': [{'type': 'portfolio', 'name': 'ws_sub_sub_portfolio1', 'children': []}, {'type': 'proposal', 'name': 'nested_proposal'}]}, {'type': 'proposal', 'name': 'ws_proposal'}, {'type': 'program', 'name': 'ws_program'}]}}}}, 'teardown': {'premise': False, 'function': False}}
+DEBUG    root:writeLogs.py:64 parameter processing result：{}
+INFO     root:writeLogs.py:67 file：apiSend.py - ======================================================================================================================================================
+INFO     root:writeLogs.py:67 file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+INFO     root:writeLogs.py:67 file：apiSend.py - Path：/itg/rest2/dm/requestTypes
+INFO     root:writeLogs.py:67 file：apiSend.py - Headers: {}
+INFO     root:writeLogs.py:67 file：apiSend.py - Parameters: {}
+INFO     root:writeLogs.py:67 file：apiSend.py - Request method: GET
+DEBUG    urllib3.connectionpool:connectionpool.py:943 Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:442 https://jingrantest.dev.mfspm.com:443 "GET /itg/rest2/dm/requestTypes HTTP/1.1" 200 None
+INFO     root:writeLogs.py:67 file：apiMethod.py - Request time：2.5187430381774902seconds
+INFO     root:writeLogs.py:67 file：apiSend.py - Request result: (<Response [200]>, {'requestType': [{'id': 31410, 'name': 'Portfolio Epic', 'description': 'Epics should be used to request a new initiatives to be approved and added to the Portfolio.'}]})
+DEBUG    root:writeLogs.py:64 parameter processing result：{}
+DEBUG    root:writeLogs.py:64 test info processing result：{'epic': 'SPM', 'feature': 'END_TO_END', 'story': 'Sync_portfolio_hierarchy_info_to_Octane_product_filed', 'host': 'https://jingrantest.dev.mfspm.com', 'method': 'POST', 'address': '/itg/rest/dm/requests', 'mime_type': 'application/json', 'headers': {}, 'auth': ['admin', '!QAZ@WSX3edc'], 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'setup_function': False, 'premise': False}, 'clean_up': None}
+DEBUG    root:writeLogs.py:64 desired processing result：[['equal_to', '$.name', '']]
+INFO     root:writeLogs.py:67 file：apiSend.py - ======================================================================================================================================================
+INFO     root:writeLogs.py:67 file：apiSend.py - Host：https://jingrantest.dev.mfspm.com
+INFO     root:writeLogs.py:67 file：apiSend.py - Path：/itg/rest/dm/requests
+INFO     root:writeLogs.py:67 file：apiSend.py - Headers: {}
+INFO     root:writeLogs.py:67 file：apiSend.py - Parameters: {}
+INFO     root:writeLogs.py:67 file：apiSend.py - Request method: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:943 Starting new HTTPS connection (1): jingrantest.dev.mfspm.com:443

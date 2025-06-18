@@ -1,0 +1,8 @@
+2023-06-09 12:21:58,045 - writeLogs.py - ERROR: file：apiMethod.py - ERROR
+Traceback (most recent call last):
+  File "E:\PythonProject\Demo_Test-master\comm\unit\apiMethod.py", line 111, in post
+    if response.headers['Content-Type'] == "application/json":
+  File "D:\env\python3.7\lib\site-packages\requests\structures.py", line 52, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'content-type'
+2023-06-09 12:21:58,087 - writeLogs.py - ERROR: file：apiMethod.py - 'content-type'

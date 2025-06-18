@@ -1,0 +1,16 @@
+PyDemo:
+  timeout: 3
+  # config
+#  host: 10.168.82.93
+#  port: 5432
+#  database: spm_automation_pg
+#  user: spm_automation_pg
+#  password: spm_automation_pg
+  host: 10.168.82.115
+  port: 5432
+  database: ppm_pg_20
+  user: ppm_pg_20
+  password: ppm_pg_20
+
+SPM:
+  # Copy the above format

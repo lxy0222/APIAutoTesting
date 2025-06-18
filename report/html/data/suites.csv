@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Jul 05 17:47:09 CST 2023","Wed Jul 05 17:47:13 CST 2023","4074","PyDemo.testcase.SPM.SPM_END_TO_END","test_Sync_portfolio_hierarchy_info_to_Octane_product_filed","TestEnd_To_End","","","create a portfolio with epic can be synced to octane and octane side update some field can be synced to SPM",""

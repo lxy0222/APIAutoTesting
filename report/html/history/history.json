@@ -1,0 +1,1 @@
+{"239856dbfd932184477b5749a3008cd5":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"528f82da11694140","status":"broken","statusDetails":"requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))","time":{"start":1688550429656,"stop":1688550433730,"duration":4074}}]}}

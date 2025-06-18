@@ -1,0 +1,1 @@
+{'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}

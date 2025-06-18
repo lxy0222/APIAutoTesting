@@ -1,0 +1,567 @@
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:104 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求接口：/itg/rest2/portfolios
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求地址：http://ppmsh03.hpeswlab.net:39880//itg/rest2/portfolios
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求头: {}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求参数: {'name': 'suishouxiede', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/portfolios HTTP/1.1" 400 None
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.11377329237949899
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.20479192628309822
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4194683778769716
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.020209729567411006
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.03371060514948118
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.500434098055936
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4813907327834522
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    root:writeLogs.py:67 这只是setup的function
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\initializePremiseData.py - 执行前置接口测试用例：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': '${host}', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'setup': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {}, 'BGC1']], 'function': {'func_setup_test': {'a': 'test'}}}, 'teardown': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {'name': '${resBGC1_data_1}'}, 'BGC1']], 'function': {'func_teardown_test': {'b': 'test down'}}}}
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {}, 'BGC1']], 'function': {'func_setup_test': {'a': 'test'}}}, 'teardown': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {'name': '${resBGC1_data_1}'}, 'BGC1']], 'function': {'func_teardown_test': {'b': 'test down'}}}}
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 请求参数处理结果：{'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求接口：/itg/rest2/businessGoals
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求地址：http://ppmsh03.hpeswlab.net:39880//itg/rest2/businessGoals
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求头: {}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求参数: {'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/businessGoals HTTP/1.1" 500 None
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 请求参数处理结果：{'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioContent', 'story': 'PortfolioContentAdd', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Accept': 'application/json'}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'setup': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {}, 'BGC1']], 'function': {'func_setup_test': {'a': 'test'}}}, 'teardown': {'premise': [['/Portfolio/test_portfolio_create.yaml', 'Create a portfolio', '这是setup premise创建', {'name': '${resBGC1_data_1}'}, 'BGC1']], 'function': {'func_teardown_test': {'b': 'test down'}}}}
+DEBUG    root:writeLogs.py:67 获取关联键列表:
+[]
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 期望返回处理结果：[['eq', 'version', 0], ['gt', 'id', 0]]
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求接口：/itg/rest2/businessGoals
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求地址：http://ppmsh03.hpeswlab.net:39880//itg/rest2/businessGoals
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求头: {'Accept': 'application/json'}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求参数: {'name': 'ws_shared_bg_$', 'description': '', 'status': 'NOTSTART', 'kpiId': 30040, 'kpi': {'isSharedKpi': True, 'type': None, 'currencyCode': None, 'optimizationDirection': None}, 'portfolioId': '${resCD2_data_id}', 'strategicThemeId': '0', 'parentBusinessGoalId': '0', 'startDate': '2023-05-09 16:33:35', 'optimizeGoal': True}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/businessGoals HTTP/1.1" 500 None
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [500]>, {'code': 'PPMC_WSE000', 'message': 'Internal error.', 'isWarning': False, 'detail': ['javax.ws.rs.WebApplicationException']})
+DEBUG    root:writeLogs.py:67 'CustomLogger' object has no attribute 'exception'
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求接口：/itg/rest2/portfolios
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求地址：http://ppmsh03.hpeswlab.net:39880//itg/rest2/portfolios
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求头: {}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求参数: {'name': '${resBGC1_data_1}', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/portfolios HTTP/1.1" 400 None
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.11377329237949899
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.20479192628309822
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4194683778769716
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.020209729567411006
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.03371060514948118
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.500434098055936
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4813907327834522
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    root:writeLogs.py:67 这只是teardown的function
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.11377329237949899
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.20479192628309822
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4194683778769716
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.universaldetector:universaldetector.py:234 no data received!
+DEBUG    chardet.universaldetector:universaldetector.py:271 no probers hit minimum threshold
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.020209729567411006
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.03371060514948118
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.500434098055936
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4813907327834522
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    root:writeLogs.py:67 这只是teardown的function
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 测试信息处理结果：{'epic': 'Portfolio', 'feature': 'PortfolioCreate', 'story': 'PortfolioCreate', 'host': 'http://ppmsh03.hpeswlab.net:39880/', 'method': 'POST', 'address': '/itg/rest2/portfolios', 'mime_type': 'application/json', 'headers': {}, 'auth': 'admin,admin', 'timeout': '120', 'file': False, 'cookies': False, 'premise': False, 'setup_function': False, 'clean_up': None}
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+DEBUG    root:writeLogs.py:67 namespace()
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - ======================================================================================================================================================
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求接口：/itg/rest2/portfolios
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求地址：http://ppmsh03.hpeswlab.net:39880//itg/rest2/portfolios
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求头: {}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求参数: {'name': '${resBGC1_data_1}', 'managers': [{'userId': '1', 'fullName': 'Admin User'}], 'portfolioType': {'id': -1}}
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): ppmsh03.hpeswlab.net:39880
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://ppmsh03.hpeswlab.net:39880 "POST //itg/rest2/portfolios HTTP/1.1" 400 None
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
+INFO     root:writeLogs.py:70 文件：E:\PythonProject\Demo_Test-master\comm\unit\apiSend.py - 请求结果: (<Response [400]>, {'code': 'PPMC_WSE1018', 'message': 'The portfolio name already exists.', 'isWarning': False})
