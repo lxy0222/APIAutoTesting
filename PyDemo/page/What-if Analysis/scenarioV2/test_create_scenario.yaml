@@ -1,0 +1,29 @@
+test_info:
+  epic: ScenarioV2
+  feature: ScenarioV2
+  story: ScenarioCreate
+  host: ${host}
+  method: POST
+  address: /itg/rest2/pvo/api/v2/scenarios
+  mime_type: application/json
+  headers: {}
+  auth: admin,admin
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  premise: false
+test_case:
+- summary: ScenarioCreate
+  title: 这是我的case标题有啥用呢
+  describe: 这是我的description啦
+  tag: TAG01
+  issue: create scenario 01
+  premise: false
+  auth:
+  parameter: {"name": "ws_what-if_scenario_1679298117088", "dataSource": "30026","template": "30120"}
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+      code: 0
+      message: 登陆成功

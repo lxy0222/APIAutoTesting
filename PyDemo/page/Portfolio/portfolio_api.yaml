@@ -1,0 +1,454 @@
+test_info:
+  epic: portfolio
+  feature: Portfolio
+  story: PortfolioApi
+  host: ${host}
+  method: POST
+  address: /itg/rest/dm/requests
+  mime_type: application/json
+  headers: {}
+  auth: ${AUTH}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  premise: false
+  setup_function: false
+  clean_up:
+test_case:
+- summary: Get fsId by ppaId
+  skip:
+  address: /itg/ppmservices/FinanceService
+  mime_type: application/xml
+  title: Add ppa to portfolio by soap api
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fm="http://mercury.com/ppm/fm/1.0" xmlns:ns="http://mercury.com/ppm/fm/service/1.0" xmlns:common="http://mercury.com/ppm/common/1.0"><soap:Body><ns:readFinancialSummary><ns:financialSummaryParent><fm:parentType>${ppaType}</fm:parentType><fm:parentIdentifier><fm:id>${ppaId}</fm:id></fm:parentIdentifier></ns:financialSummaryParent></ns:readFinancialSummary></soap:Body></soap:Envelope>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: Add ppa to portfolio
+  skip:
+  address: /itg/rest2/portfolios/${portfolioId}/contents/ppas
+  mime_type: application/x-www-form-urlencoded
+  title: Add ppa to portfolio by soap api
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter:
+    fsId: ${fsId}
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+
+- summary: create a program by soap
+  skip:
+  address: /itg/ppmservices/ProgramService
+  mime_type: application/xml
+  title: create a program by soap api
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://mercury.com/ppm/pgm/service/1.0" xmlns:ns1="http://mercury.com/ppm/pgm/1.0" xmlns:ns2="http://mercury.com/ppm/common/1.0"><soapenv:Body> <ns:createProgram> <ns:program> <ns1:name>${programName}</ns1:name> <ns1:programTypeId>30000</ns1:programTypeId> <ns1:managers> <ns1:manager> <ns2:id>1</ns2:id> </ns1:manager> </ns1:managers> <ns1:statusCode>NEW</ns1:statusCode> <ns1:description>This is an automation program</ns1:description> </ns:program> </ns:createProgram> </soapenv:Body> </soapenv:Envelope>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: update program to enable add to portfolio
+  skip:
+  address: /itg/rest2/program/?alt=application/json
+  mime_type: application/json
+  title: create a program by soap api
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter:
+    {"id":"${programId}","settings":{"version":1,"fmEnabled":true,"topDownBudgetEnabled":false,"subordinateUpdateBudgetEnabled":true,"allowOverrideOverallHealth":false,"issueEnabled":true,"issuePriorityWeights":[{"code":"LOW","weight":"0"},{"code":"NORMAL","weight":"1"},{"code":"HIGH","weight":"3"},{"code":"CRITICAL","weight":"5"}],"issueRedThreshold":40,"issueYellowThreshold":20,"overallHealthEnabled":false,"healthWeights":[{"code":"ISSUE","weight":"1"},{"code":"RISK","weight":"1"},{"code":"SCOPECHANGE","weight":"1"}],"healthRedThreshold":120,"healthYellowThreshold":60,"riskEnabled":true,"riskImpactWeights":[{"code":"LEVEL_ONE","weight":"5"},{"code":"LEVEL_TWO","weight":"3"},{"code":"LEVEL_THREE","weight":"1"}],"riskProbabilityWeights":[{"code":"HIGH","weight":"5"},{"code":"MEDIUM","weight":"3"},{"code":"LOW","weight":"1"}],"riskRedThreshold":40,"riskYellowThreshold":20,"rollupable":true,"scopeChangeEnabled":true,"scopeChangeRedThreshold":40,"scopeChangeSeverityWeights":[{"code":"CRITICAL","weight":"5"},{"code":"HIGH","weight":"3"},{"code":"MEDIUM","weight":"1"},{"code":"LOW","weight":"0"}],"scopeChangeYellowThreshold":20,"type":"ProgramTypeSettings"}}
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: add program to portfolio without update program setting
+  skip:
+  address: /itg/rest2/portfolios/${portfolioId}/contents/programs
+  mime_type: x-www-form-urlencoded
+  title: add program to portfolio without update program setting
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter:
+    programId: ${programId}
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: create a project by soap
+  skip:
+  address: /itg/ppmservices/ProjectService
+  mime_type: application/xml
+  title: create a program by soap api
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pm="http://mercury.com/ppm/pm/1.0" xmlns:ns="http://mercury.com/ppm/pm/service/1.0" xmlns:common="http://mercury.com/ppm/common/1.0"><soap:Body><ns:createProject><ns:projectBean><pm:projectName>${projectName}</pm:projectName><pm:projectTypeName>${ENTERPRISE}</pm:projectTypeName><pm:projectManagerUserName>admin</pm:projectManagerUserName><pm:plannedStartPeriodFullName>${startDate}</pm:plannedStartPeriodFullName><pm:plannedFinishPeriodFullName>${endDate}</pm:plannedFinishPeriodFullName><pm:regionName>${ENTERPRISE}</pm:regionName><pm:tables><common:token/></pm:tables></ns:projectBean></ns:createProject></soap:Body></soap:Envelope>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: add content through candidate
+  skip:
+  address: /itg/rest2/portfolios/${portfolioId}/backlogs/candidates
+  mime_type: application/json
+  title: create a program by soap api
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter:
+    {
+      "ppas": [ ],
+      "programs": [ ],
+      "portfolios": [ ]
+    }
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: create project staffing profile
+  skip:
+  address: /itg/ppmservices/StaffingProfileService
+  mime_type: application/xml
+  title: create project staffing profile
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://mercury.com/ppm/sp/service/1.0" xmlns:ns1="http://mercury.com/ppm/sp/1.0"><soapenv:Body><ns:createStaffingProfileHeader><ns:StaffingProfileHeaderWSBean><ns1:name>ws_project_16861896750571686189675060</ns1:name><ns1:description>This is a SP for automation</ns1:description><ns1:parentEntityBean><ns1:parentType>Project</ns1:parentType><ns1:parentIdentifier><ns1:id>30793</ns1:id><ns1:name>ws_project_16861896750571686189675060</ns1:name></ns1:parentIdentifier></ns1:parentEntityBean><ns1:managerUserName>admin</ns1:managerUserName><ns1:status>In Planning</ns1:status><ns1:plannedStartPeriodFullName>January 2023</ns1:plannedStartPeriodFullName><ns1:plannedFinishPeriodFullName>January 2024</ns1:plannedFinishPeriodFullName><ns1:regionName>Enterprise</ns1:regionName><ns1:showAsWorkLoad>true</ns1:showAsWorkLoad></ns:StaffingProfileHeaderWSBean></ns:createStaffingProfileHeader></soapenv:Body></soapenv:Envelope>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: create proposal staffing profile
+  skip:
+  address: /itg/ppmservices/StaffingProfileService
+  mime_type: application/xml
+  title: create proposal staffing profile
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://mercury.com/ppm/sp/service/1.0" xmlns:ns1="http://mercury.com/ppm/sp/1.0"> <soapenv:Header/> <soapenv:Body> <ns:createStaffingProfileHeader> <ns:StaffingProfileHeaderWSBean> <ns1:name>${proposalName}</ns1:name> <ns1:description>This is a SP for automation</ns1:description> <ns1:parentEntityBean> <ns1:parentType>Proposal</ns1:parentType> <ns1:parentIdentifier> <ns1:id>${proposalId}</ns1:id> <ns1:name>${proposalName}</ns1:name> </ns1:parentIdentifier> </ns1:parentEntityBean> <ns1:managerUserName>admin</ns1:managerUserName> <ns1:status>In Planning</ns1:status> <ns1:plannedStartPeriodFullName>${startDate}</ns1:plannedStartPeriodFullName> <ns1:plannedFinishPeriodFullName>${endDate}</ns1:plannedFinishPeriodFullName> <ns1:regionName>Enterprise</ns1:regionName> <ns1:workLoadCategory>Strategic Projects</ns1:workLoadCategory> <ns1:showAsWorkLoad>true</ns1:showAsWorkLoad> </ns:StaffingProfileHeaderWSBean> </ns:createStaffingProfileHeader> </soapenv:Body> </soapenv:Envelope>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: create role with role name
+  skip:
+  address: /itg/ppmservices/ResourceService
+  mime_type: application/xml
+  title: create role with role name
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://mercury.com/ppm/rm/service/1.0" xmlns:ns1="http://mercury.com/ppm/rm/1.0"><soapenv:Header/><soapenv:Body><ns:createRoles><!--Zero or more repetitions:--><ns:role><ns1:id>1</ns1:id><ns1:name>${roleName}</ns1:name><ns1:description>This is a testing for automation</ns1:description><ns1:enabled>true</ns1:enabled></ns:role></ns:createRoles></soapenv:Body></soapenv:Envelope>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: create resource pool
+  skip:
+  address: /itg/ppmservices/ResourceService
+  mime_type: application/xml
+  title: create resource pool
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://mercury.com/ppm/rm/service/1.0" xmlns:ns1="http://mercury.com/ppm/rm/1.0" xmlns:ns2="http://mercury.com/ppm/common/1.0"><soapenv:Header/><soapenv:Body><ns:createResourcePools><ns:resourcePool><ns1:id>1</ns1:id><ns1:name>ws_pool_$RandStr(10)</ns1:name><ns1:description>c</ns1:description><ns1:region><ns1:id>${GD_global_defaultRegion_id}</ns1:id><ns1:name>${GD_global_defaultRegion_name}</ns1:name></ns1:region><ns1:manager><ns1:id>${ADMIN_USER_ID}</ns1:id></ns1:manager><ns1:ACEs><ns1:user><ns1:id>1</ns1:id><ns1:name>Admin User</ns1:name></ns1:user><ns1:canEditHeader>true</ns1:canEditHeader><ns1:canEditUnnamedHeadCount>true</ns1:canEditUnnamedHeadCount><ns1:canEditSecurity>true</ns1:canEditSecurity><ns1:isReadOnly>true</ns1:isReadOnly></ns1:ACEs></ns:resourcePool></ns:createResourcePools></soapenv:Body></soapenv:Envelope>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: add position
+  skip:
+  address: /itg/rest2/position/savePositionAssignments
+  mime_type: application/json
+  title: create resource pool
+  tag: TAG01
+  describe:
+  issue: add position
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter:
+    {
+      "positionViews": [
+        {
+          "data": {
+            "staffingProfile": {
+              "id": "${spId}"
+            },
+            "name": "ws_position_$RandStr(10)",
+            "assignments": [
+
+            ],
+            "role": {
+              "id": "${GD_role_id}",
+              "name": ""
+            },
+            "status": {
+              "name": "New",
+              "type": "NEW"
+            },
+            "resourcePool": {
+              "id": "${GD_pool_id}",
+              "name": ""
+            },
+            "startDate": "",
+            "finishDate": "",
+            "totalHour": "",
+            "totalHourUnmet": "",
+            "totalPersonDays": "",
+            "totalPersonDaysUnmet": "",
+            "averageFTE": "",
+            "averageFTEUnmet": "",
+            "specificResource": null,
+            "costCategory": null,
+            "resourceType": null,
+            "forecasts": [
+              {
+                "startDate": "${startDate}",
+                "finishDate": "${finishDate}",
+                "type": "FTE",
+                "fte": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "assignmentViews": [
+
+      ]
+    }
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: update financial summary with CapexOpex enabled
+  skip:
+  address: /itg/ppmservices/FinanceService
+  mime_type: application/xml
+  title: update financial summary with CapexOpex enabled
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"> <soapenv:Header/> <soapenv:Body> <service:readFinancialSummaryResponse xmlns="http://mercury.com/ppm/fm/1.0" xmlns:service="http://mercury.com/ppm/fm/service/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> <service:financialSummary> <id>${GD_projectfsid}</id> <name>${entityName}</name> <parent> <parentType>PROPOSAL</parentType> <parentIdentifier> <id>${GD_projectId}</id> <name>${entityName}</name> </parentIdentifier> </parent> <localCurrencyCode>USD</localCurrencyCode> <baseCurrencyCode>USD</baseCurrencyCode> <approvedBudgets/> <forecastActual> <isCapexOpexEnabled>true</isCapexOpexEnabled> <actualRollupCode>MANUAL</actualRollupCode> <lines> <line> <expenseType>Capital</expenseType> <laborType>Labor</laborType> <category>Contractor</category> <syncSourceCode>NO_SYNC</syncSourceCode> <editable>true</editable> <cells> <cell> <period> <periodStartDate>2023-01-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-02-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-03-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-04-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-05-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-06-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-07-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-08-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-09-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-10-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-11-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-12-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> </cells> <userData/> </line> <line> <expenseType>Operating</expenseType> <laborType>Labor</laborType> <category>Employee</category> <syncSourceCode>NO_SYNC</syncSourceCode> <editable>true</editable> <cells> <cell> <period> <periodStartDate>2023-01-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-02-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-03-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-04-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-05-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-06-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-07-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-08-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-09-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-10-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-11-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> <cell> <period> <periodStartDate>2023-12-01</periodStartDate> <periodType>MONTH</periodType> </period> <actualValueBSE>300</actualValueBSE> <actualValueLCL>300</actualValueLCL> <planValueBSE>1000</planValueBSE> <planValueLCL>1000</planValueLCL> </cell> </cells> <userData/> </line> </lines> <userData/> </forecastActual> <snapshots/> <npv>-24000.0</npv> <tnr>-24000.0</tnr> </service:financialSummary> </service:readFinancialSummaryResponse> </soapenv:Body>
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: create financial summary forecastActual
+  skip:
+  address: /itg/rest2/fs/${fsId}/forecastActual?fiscalYearId=${fiscalYearId}
+  mime_type: application/json
+  method: PUT
+  title: create resource pool
+  tag: TAG01
+  describe:
+  issue: create financial summary forecastActual
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter:
+    {
+      "lines": [
+        {
+          "id": -1,
+          "category": {
+            "code": "CONTRACTOR",
+            "meaning": "Contractor"
+          },
+          "expenseType": {
+            "code": "OPERATING",
+            "meaning": "Operating"
+          },
+          "laborType": {
+            "code": "LABOR",
+            "meaning": "Labor"
+          },
+          "cells": [
+            {
+              "periodId": 36011,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36016,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36021,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36027,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36033,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36038,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36045,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36051,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36056,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36063,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36068,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            },
+            {
+              "periodId": 36073,
+              "localPlanValue": 1000,
+              "localActualValue": 0
+            }
+          ],
+          "userDataValues": [
+
+          ]
+        }
+      ],
+      "editByPeriodType": "M",
+      "version": {
+        "aggregatedVersion": 0,
+        "lineIds": [
+
+        ]
+      },
+      "capOpExEnabled": true
+    }
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+- summary: add ppas to program
+  skip:
+  address: /itg/rest2/program/${programID}
+  mime_type: application/json
+  method: POST
+  title: add ppas to program
+  tag: TAG01
+  describe:
+  issue: create financial summary forecastActual
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter:
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:

@@ -1,0 +1,17 @@
+[
+    {
+        "summary": "SecurityGroupAdd",
+        "body": {
+    "securityGroupName":"ws_security_group_$GenTimeStamp",
+    "description":"ws_security_group_desc",
+    "accessGrants":"${access}",
+    "ownerships":[
+
+    ],
+    "users":[
+
+    ],
+    "enabledFlag":"Yes"
+}
+    }
+]

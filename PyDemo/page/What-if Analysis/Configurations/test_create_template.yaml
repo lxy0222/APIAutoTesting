@@ -1,0 +1,64 @@
+test_info:
+  epic: What-ifAnalysis
+  feature: Configuration
+  story: TemplateCreate
+  host: ${host}
+  method: POST
+  address: /itg/rest2/pvo/api/configurations
+  mime_type: application/json
+  headers: {}
+  auth: admin,admin
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  setup:
+    premise: false
+    function: false
+  teardown:
+    premise: false
+    function: false
+#    func_create_user_with_specified_license_and_security_group:
+#      licenses: [ 6,2 ]
+#      password: Asdf1@34
+#      securityGroups:
+#        - ${id}
+test_case:
+- summary: create template with user with edit access grant
+  skip:
+  title: Octane#529058 - user with edit all what-if template access grant should create template successfully.
+  describe:
+    Description:
+      - check the template id is gernarated.
+      - check the template name matches the input.
+      - check the template CreatedOn matches the current date.
+      - check the template enabled defaults to true.
+      - Prepared users:user with pfm license and view&edit all what if templates access grant,view portfolio access grant,view portfolio types access grant
+    FunctionDesigner: CHEN
+    Author: Xuanyu Liu
+    CreateDate: 1/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description]
+    - - /UserManagement/SecurityGroup/test_security_group_add.yaml
+      - create security group with accessGrants
+      - 创建安全组
+      - {}
+      - SGA1
+  setup_function:
+    func_create_user_with_specified_license_and_security_group:
+      licenses: [6,2]
+      password: Asdf1@34
+      securityGroups:
+        - ${resSGA1_id}
+  auth: #${GD_userName},Asdf1@34
+  parameter: CreateTemplate_request.json
+  check_body:
+    check_type: check_json
+    expected_code: 201
+    expected_result:
+        - ["eq", "version", 0]
+        - ["gt", "id", 0]
+  teardown:
+#    func_add_security_group_to_user:
+#      securityGroupId: ${GD_sgId}
+#      userId: ${GD_userId}

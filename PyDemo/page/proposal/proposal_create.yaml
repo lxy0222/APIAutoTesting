@@ -1,0 +1,34 @@
+test_info:
+  epic: proposal
+  feature: ProposalCreate
+  story: ProposalCreate
+  host: ${host}
+  method: POST
+  address: /itg/rest/dm/requests
+  mime_type: application/json
+  headers: {}
+  auth: ${AUTH}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  premise: false
+  setup_function: false
+  clean_up:
+test_case:
+- summary: Create a proposal
+  skip:
+  title: Create a proposal by rest
+  tag: TAG01
+  describe:
+  issue: create scenario 01
+  premise: # [path key description]
+  setup_function:
+  auth:
+  parameter: CreateProposal_request.json
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:

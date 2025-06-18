@@ -1,0 +1,257 @@
+[
+    {
+        "summary": "create octane request",
+        "body": {
+    "id":"",
+    "description":"description",
+    "requestType":"${res_GRT1_requestType_0_name}",
+    "sourceType":"",
+    "source":"",
+    "fields":{
+        "field":[
+            {
+                "token":"REQ.P.KNTA_AGILE_ENTITY_TYPE",
+                "stringValue":[
+                    "Epic"
+                ]
+            },
+            {
+                "token":"REQ.KNTA_AGILE_INSTANCE_NAME",
+                "stringValue":[
+                    "spm_configuration"
+                ]
+            },
+            {
+                "token":"REQ.KNTA_AGILE_PROJECT",
+                "stringValue":[
+                    "${AGILE_PROJECT_DISPLAY_NAME}"
+                ]
+            },
+            {
+                "token":"REQ.P.KNTA_PROJECT_NAME",
+                "stringValue":[
+                    "ws_epic_$GenTimeStamp()"
+                ]
+            },
+            {
+                "token":"REQ.REQUEST_GROUP_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.PERCENT_COMPLETE",
+                "stringValue":[
+                    "0"
+                ]
+            },
+            {
+                "token":"REQ.STATUS_NAME",
+                "stringValue":[
+                    "Not Submitted"
+                ]
+            },
+            {
+                "token":"REQ.COMPANY_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.PRIORITY_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.CONTACT_EMAIL",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.WORKFLOW_NAME",
+                "stringValue":[
+                    "octane_wf"
+                ]
+            },
+            {
+                "token":"REQ.DEPARTMENT_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.REQUEST_ID",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.DESCRIPTION",
+                "stringValue":[
+                    "${description}"
+                ]
+            },
+            {
+                "token":"REQ.ASSIGNED_TO_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.CREATED_BY",
+                "stringValue":[
+                    "${ADMIN_FULLNAME}"
+                ]
+            },
+            {
+                "token":"REQ.KNTA_AGILE_ENTITY_ID",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.STATUS_CODE",
+                "stringValue":[
+                    "IN_PROGRESS"
+                ]
+            },
+            {
+                "token":"REQ.LAST_UPDATE_DATE",
+                "dateValue":"2018-03-21T14:14:28.000+08:00"
+            },
+            {
+                "token":"REQ.ASSIGNED_TO_GROUP_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.REQUEST_TYPE_NAME",
+                "stringValue":[
+                    "octane_type1"
+                ]
+            },
+            {
+                "token":"REQ.REQUEST_SUB_TYPE_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.CONTACT_NAME",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.CONTACT_PHONE_NUMBER",
+                "stringValue":[
+                    ""
+                ]
+            },
+            {
+                "token":"REQ.ENTITY_LAST_UPDATE_DATE",
+                "dateValue":"2018-03-21T14:14:28.000+08:00"
+            },
+            {
+                "token":"REQ.CREATION_DATE",
+                "dateValue":"2018-03-21T14:14:28.000+08:00"
+            },
+            {
+                "token":"REQ.KNTA_SYNC_FLAG",
+                "stringValue":[
+                    "Y"
+                ]
+            },
+            {
+                "token":"REQ.APPLICATION_NAME",
+                "stringValue":[
+                    ""
+                ]
+            }
+        ]
+    },
+    "notes":{
+
+    },
+    "references":{
+
+    }
+}
+    },
+  {
+        "summary": "run report immediately",
+        "body": {
+    "reportReferenceCode":"EXPORT_PORTFOLIO_INFO",
+    "repeatFlag":false,
+    "status":{
+        "code":"SCHEDULED",
+        "meaning":"SCHEDULED"
+    },
+    "values":[
+        {
+            "code":"P_RUN_EXPORT",
+            "meaning":"Y"
+        },
+        {
+            "code":"P_LICENSE_ACTION",
+            "meaning":"OVERWRITE_ALL"
+        },
+        {
+            "code":"P_LIMITED_SIZE",
+            "meaning":"2000"
+        },
+        {
+            "code":"P_KEEP_EXISTING_VALUES",
+            "meaning":"Y"
+        },
+        {
+            "code":"P_IMPORT_ALL",
+            "meaning":"Y"
+        },
+        {
+            "code":"P_AUTH_MODE",
+            "meaning":"SITEMINDER"
+        },
+        {
+            "code":"P_SHOW_FAILED_TRANSACTIONS",
+            "meaning":"Y"
+        },
+        {
+            "code":"P_SHOW_SUCCESSFUL_TRANSACTIONS",
+            "meaning":"Y"
+        },
+        {
+            "code":"P_USER_SECURITY_ACTION",
+            "meaning":"OVERWRITE"
+        }
+    ]
+}
+    },
+  {
+        "summary": "Create a bg with parent goal of a private type KPI1",
+        "body": {
+      "businessGoal": {
+        "name": "ws_bg_$GenTimeStamp()",
+        "description": "",
+        "optimizeGoal": "true",
+        "ownerId": "1",
+        "portfolioId": "${GD_ws_sub_portfolio1_id}",
+        "startDate": "2018-05-01 00:00:00",
+        "parentBusinessGoalId": "${resBGC2_id}",
+        "strategicThemeId": 0,
+        "status": "NOTSTART"
+      },
+      "kpi": {
+        "currencyCode": "USD",
+        "optimizationDirection": "MAX",
+        "type": {
+          "value": "MONEY",
+          "subValue": "USD"
+        }
+      }
+    }
+    }
+]

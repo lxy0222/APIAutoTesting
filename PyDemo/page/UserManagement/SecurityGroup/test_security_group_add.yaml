@@ -1,0 +1,43 @@
+test_info:
+  epic: User
+  feature: SecurityGroup
+  story: SecurityGroupAdd
+  host: ${host}
+  method: POST
+  address: /itg/rest2/useradmin/securityGroups
+  mime_type: application/json
+  headers: {}
+  auth: admin,admin
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  premise: false
+  setup_function: false
+  clean_up:
+test_case:
+- summary: create security group with accessGrants
+  title: create security group
+  describe:
+  tag: SecurityGroup
+  issue: create security group 00
+  premise: false
+  setup_function:
+  auth:
+  parameter:
+    {
+      "securityGroupName": "ws_security_group_$GenTimeStamp()",
+      "description": "ws_security_group_desc",
+      "accessGrants": [{"id": "1374", "text": "dummy"},{"id": "1369", "text": "dummy"},{"id": "1288", "text": "dummy"}],
+      "ownerships": [
+
+      ],
+      "users": [
+
+      ],
+      "enabledFlag": "Yes"
+    }
+  check_body:
+    check_type: check_code
+    expected_code: 200
+    expected_result:
+  clean_up:

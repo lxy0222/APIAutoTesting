@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.7.9 on win32)" generated="20230314 01:19:24.844" rpa="false" schemaversion="2">
+<suite id="s1" name="Sync portfolio hierarchy info to Octane product filed" source="C:\Users\XuaLiu\PycharmProjects\AutomationRobotFramework\robot_test_case_suite\API\SPM\Portfolio_Sync_To_Actane_Product\Sync_portfolio_hierarchy_info_to_Octane_product_filed.robot">
+<kw name="create portfolio types" library="portfolioTypeFunction" type="SETUP">
+<kw name="create a user with edit all portfolio types access grant" library="userManagementResource">
+<var>${ag_user}</var>
+<kw name="Comment" library="BuiltIn">
+<arg>@{agList}</arg>
+<arg>create list</arg>
+<arg>${viewAllPortfolioType}</arg>
+<arg>${editAllPortfolioType}</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="PASS" starttime="20230314 01:19:25.523" endtime="20230314 01:19:25.523"/>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<var>@{agList}</var>
+<arg>${editAllPortfolioType}</arg>
+<doc>Returns a list containing given items.</doc>
+<msg timestamp="20230314 01:19:25.523" level="INFO">@{agList} = [ 1368 ]</msg>
+<status status="PASS" starttime="20230314 01:19:25.523" endtime="20230314 01:19:25.523"/>
+</kw>
+<kw name="create security group with specific accessGrant" library="securityGroupManagementResource">
+<var>${sgId}</var>
+<arg>@{agList}</arg>
+<kw name="create security group" library="securityGroupManagementResource">
+<var>${sgId}</var>
+<arg>@{agList}</arg>
+<doc>please use access grant ids</doc>
+<kw name="Set Variable" library="BuiltIn">
+<var>${access}</var>
+<arg>[</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230314 01:19:25.524" level="INFO">${access} = [</msg>
+<status status="PASS" starttime="20230314 01:19:25.524" endtime="20230314 01:19:25.524"/>
+</kw>
+<for flavor="IN">
+<var>${code}</var>
+<value>@{accessGrants}</value>
+<iter>
+<var name="${code}">1368</var>
+<kw name="Set Variable" library="BuiltIn">
+<var>${access}</var>
+<arg>${access}{"code": "${code}", "meaning": "dummy"},</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230314 01:19:25.524" level="INFO">${access} = [{"code": "1368", "meaning": "dummy"},</msg>
+<status status="PASS" starttime="20230314 01:19:25.524" endtime="20230314 01:19:25.524"/>
+</kw>
+<status status="PASS" starttime="20230314 01:19:25.524" endtime="20230314 01:19:25.524"/>
+</iter>
+<status status="PASS" starttime="20230314 01:19:25.524" endtime="20230314 01:19:25.524"/>
+</for>
+<kw name="Replace String Using Regexp" library="String">
+<var>${access}</var>
+<arg>${access}</arg>
+<arg>,$</arg>
+<arg>]</arg>
+<doc>Replaces ``pattern`` in the given ``string`` with ``replace_with``.</doc>
+<msg timestamp="20230314 01:19:25.525" level="INFO">${access} = [{"code": "1368", "meaning": "dummy"}]</msg>
+<status status="PASS" starttime="20230314 01:19:25.525" endtime="20230314 01:19:25.525"/>
+</kw>
+<kw name="get time stamp" library="API_resource">
+<var>${timeStamp}</var>
+<kw name="Datetime To Timestamp In Milliseconds" library="Util">
+<var>${secs}</var>
+<doc>convert a datetime object to milliseconds since Epoch.</doc>
+<msg timestamp="20230314 01:19:25.525" level="INFO">${secs} = 1678781965524</msg>
+<status status="PASS" starttime="20230314 01:19:25.525" endtime="20230314 01:19:25.525"/>
+</kw>
+<msg timestamp="20230314 01:19:25.526" level="INFO">${timeStamp} = 1678781965524</msg>
+<status status="PASS" starttime="20230314 01:19:25.525" endtime="20230314 01:19:25.526"/>
+</kw>
+<kw name="ppm post with response" library="RESTResource">
+<var>${resp}</var>
+<arg>/itg/rest2/useradmin/securityGroups</arg>
+<arg>data={"name": "${securityGroupName}${timeStamp}", "description": "ws_security_group_desc", "accessSecurity":${access}}</arg>
+<arg>headers=&amp;{CONTENT_TYPE_JSON}</arg>
+<kw name="Create Session" library="RequestsLibrary">
+<arg>PPM</arg>
+<arg>${INSTANCE_URL}</arg>
+<arg>cookies=${cookies}</arg>
+<arg>auth=@{USER_AUTH}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20230314 01:19:25.527" level="INFO">Creating Session using : alias=PPM, url=http://10.168.82.41:18600/, headers={},                     cookies={}, auth=&lt;requests.auth.HTTPBasicAuth object at 0x000001827488A488&gt;, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20230314 01:19:25.526" endtime="20230314 01:19:25.527"/>
+</kw>
+<kw name="POST On Session" library="RequestsLibrary">
+<var>${resp}</var>
+<arg>PPM</arg>
+<arg>url=${url}</arg>
+<arg>data=${data}</arg>
+<arg>json=${json}</arg>
+<arg>params=${params}</arg>
+<arg>expected_status=${expectedStatusCode}</arg>
+<arg>headers=${headers}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<msg timestamp="20230314 01:19:26.371" level="INFO">POST Request : url=http://10.168.82.41:18600/itg/rest2/useradmin/securityGroups 
+ path_url=/itg/rest2/useradmin/securityGroups 
+ headers={'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'content-type': 'application/json', 'Content-Length': '141', 'Authorization': 'Basic YWRtaW46YWRtaW4='} 
+ body={"name": "ws_security_group_1678781965524", "description": "ws_security_group_desc", "accessSecurity":[{"code": "1368", "meaning": "dummy"}]} 
+ </msg>
+<msg timestamp="20230314 01:19:26.371" level="INFO">POST Response : url=http://10.168.82.41:18600/itg/rest2/useradmin/securityGroups 
+ status=200, reason= 
+ headers={'Set-Cookie': 'JSESSIONID=A521003930265B341047AE0783899282.kintana; Path=/itg; HttpOnly, KNTA_VERSION=2023.2; path=/itg; expires=Mon, 08-Dec-2025 08:19:25 GMT; HttpOnly, CSRF_X_TOKEN=eHVVTEJUM3FuT050VnNvQ3gyeDc=; Path=/itg; SameSite=Strict;', 'service-worker-allowed': '/', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Security-Policy': "default-src blob: 'self' 'unsafe-inline' 'unsafe-eval' 10.168.82.41:4001 http://adm-spm-staging.s3.us-west-2.amazonaws.com/spm 10.168.82.45;img-src 'self' data: 10.168.82.41:4001 http://adm-spm-staging.s3.us-west-2.amazonaws.com/spm 10.168.82.45;font-src 'self' data:", 'X-Content-Type-Options': 'nosniff', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'vary': 'accept-encoding', 'Content-Encoding': 'gzip', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 14 Mar 2023 08:19:25 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive', 'Server': ''} 
+ body={"accessSecurity":[{"code":"1368","meaning":"dummy"}],"description":"ws_security_group_desc","enable":true,"id":100065,"name":"ws_security_group_1678781965524","referenceCode":"WS_SECURITY_GROUP_1678781965524","usedByPackages":true,"usedByProjects":true,"usedByRequests":true,"usedByTimeSheets":false} 
+ </msg>
+<msg timestamp="20230314 01:19:26.371" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20230314 01:19:25.527" endtime="20230314 01:19:26.371"/>
+</kw>
+<msg timestamp="20230314 01:19:26.372" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20230314 01:19:25.526" endtime="20230314 01:19:26.372"/>
+</kw>
+<kw name="Get From Dictionary" library="Collections">
+<var>${sgId}</var>
+<arg>${resp.json()}</arg>
+<arg>id</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<msg timestamp="20230314 01:19:26.376" level="INFO">${sgId} = 100065</msg>
+<status status="PASS" starttime="20230314 01:19:26.372" endtime="20230314 01:19:26.376"/>
+</kw>
+<msg timestamp="20230314 01:19:26.377" level="INFO">${sgId} = 100065</msg>
+<status status="PASS" starttime="20230314 01:19:25.523" endtime="20230314 01:19:26.377"/>
+</kw>
+<msg timestamp="20230314 01:19:26.377" level="INFO">${sgId} = 100065</msg>
+<status status="PASS" starttime="20230314 01:19:25.523" endtime="20230314 01:19:26.377"/>
+</kw>
+<kw name="create user with all license and specific security group" library="userManagementResource">
+<var>@{USER_AUTH}</var>
+<var>${userId}</var>
+<var>${firstName}</var>
+<var>${lastName}</var>
+<arg>${sgId}</arg>
+<kw name="getUserNameInfo" library="userManagementResource">
+<var>${userName}</var>
+<var>${firstName}</var>
+<var>${lastName}</var>
+<doc>author: yan, feng</doc>
+<kw name="get time stamp" library="API_resource">
+<var>${timestamp}</var>
+<kw name="Datetime To Timestamp In Milliseconds" library="Util">
+<var>${secs}</var>
+<doc>convert a datetime object to milliseconds since Epoch.</doc>
+<msg timestamp="20230314 01:19:26.391" level="INFO">${secs} = 1678781966390</msg>
+<status status="PASS" starttime="20230314 01:19:26.391" endtime="20230314 01:19:26.391"/>
+</kw>
+<msg timestamp="20230314 01:19:26.391" level="INFO">${timestamp} = 1678781966390</msg>
+<status status="PASS" starttime="20230314 01:19:26.390" endtime="20230314 01:19:26.392"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${firstName}</var>
+<arg>${wsFirstName}${timestamp}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230314 01:19:26.392" level="INFO">${firstName} = ws_first_name_1678781966390</msg>
+<status status="PASS" starttime="20230314 01:19:26.392" endtime="20230314 01:19:26.392"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${lastName}</var>
+<arg>${wsLastName}${timestamp}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230314 01:19:26.393" level="INFO">${lastName} = ws_last_name_1678781966390</msg>
+<status status="PASS" starttime="20230314 01:19:26.393" endtime="20230314 01:19:26.393"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${userName}</var>
+<arg>${userName}${timestamp}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230314 01:19:26.393" level="INFO">${userName} = ws_user_1678781966390</msg>
+<status status="PASS" starttime="20230314 01:19:26.393" endtime="20230314 01:19:26.394"/>
+</kw>
+<msg timestamp="20230314 01:19:26.394" level="INFO">${userName} = ws_user_1678781966390</msg>
+<msg timestamp="20230314 01:19:26.394" level="INFO">${firstName} = ws_first_name_1678781966390</msg>
+<msg timestamp="20230314 01:19:26.394" level="INFO">${lastName} = ws_last_name_1678781966390</msg>
+<status status="PASS" starttime="20230314 01:19:26.390" endtime="20230314 01:19:26.394"/>
+</kw>
+<kw name="ppm post with response" library="RESTResource">
+<var>${resp}</var>
+<arg>/itg/rest2/useradmin/users/add</arg>
+<arg>data={"authentication":{"authenticationMode":{"code":"ITG","meaning":""},"distinguishedName":"N/N","domain":"","logonIdInLdap":"N/N","password":"${passWord}","newPasswordOnLogon":false,"passwordExpirationDate":"","passwordExpirationDays":"","startDate":"2016-11-18T00:00:00.000+08:00","endDate":""},"user":{"calendarId":100000,"company":{"code":"","meaning":""},"email":"","firstName":"${firstName}","lastName":"${lastName}","phoneNumber":"","userName":"${userName}","region":{"code":"${global_defaultRegion_id}","meaning":"America"},"regionOverrideFlag":false,"enabledFlag":true},"userLicense":{"sysProducts":[{"checked":true,"productDesc":"","productId":8,"productName":"Configuration - Access to all Applications and their configuration, except User Administration"},{"checked":false,"productDesc":"","productId":7,"productName":"User Administration - Create Users, Security Groups, and assign Licenses"}],"appProducts":[{"checked":false,"productDesc":"","productId":12,"productName":"Application Portfolio Analyst - Requires Demand Management","disabled":true},{"checked":false,"productDesc":"","productId":13,"productName":"Application Portfolio User - Requires Demand Management","disabled":true},{"checked":false,"productDesc":"","productId":2,"productName":"Demand Management","disabled":true},{"checked":false,"productDesc":"","productId":1,"productName":"Deployment Management","disabled":true},{"checked":false,"productDesc":"","productId":6,"productName":"Portfolio Management - Requires Demand Management","disabled":true},{"checked":false,"productDesc":"","productId":4,"productName":"Program Management - Requires Demand Management and Project Management","disabled":true},{"checked":false,"productDesc":"","productId":3,"productName":"Project Management","disabled":true},{"checked":false,"productDesc":"","productId":5,"productName":"Time Management","disabled":true}]},"ownership":[],"noOrgSecurityGroups":[{"code":"${securityGroupPermissionId}","meaning":"security group"}]}</arg>
+<arg>headers=&amp;{CONTENT_TYPE_JSON}</arg>
+<msg timestamp="20230314 01:19:26.402" level="FAIL">Variable '${global_defaultRegion_id}' not found.</msg>
+<status status="FAIL" starttime="20230314 01:19:26.394" endtime="20230314 01:19:26.403"/>
+</kw>
+<kw name="Get From Dictionary" library="Collections">
+<var>${userId}</var>
+<arg>${resp.json()}[data][user]</arg>
+<arg>userId</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.403" endtime="20230314 01:19:26.403"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${userId}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.403" endtime="20230314 01:19:26.404"/>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<var>@{USER_AUTH}</var>
+<arg>${userName}</arg>
+<arg>${passWord}</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.404" endtime="20230314 01:19:26.404"/>
+</kw>
+<status status="FAIL" starttime="20230314 01:19:26.377" endtime="20230314 01:19:26.404"/>
+</kw>
+<kw name="add security group to user" library="userManagementResource">
+<arg>${sgId}</arg>
+<arg>${userId}</arg>
+<doc>added by felix
+default to add security group</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.405" endtime="20230314 01:19:26.405"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>@{USER_AUTH}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.405" endtime="20230314 01:19:26.405"/>
+</kw>
+<status status="FAIL" starttime="20230314 01:19:25.522" endtime="20230314 01:19:26.406"/>
+</kw>
+<kw name="Create Session" library="RequestsLibrary">
+<arg>PPM</arg>
+<arg>${INSTANCE_URL}</arg>
+<arg>auth=@{AUTH}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.406" endtime="20230314 01:19:26.406"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>type1</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.406" endtime="20230314 01:19:26.406"/>
+</kw>
+<kw name="create basic info" library="portfolioTypeFunction">
+<var>${portfolioTypeName1}</var>
+<var>${description}</var>
+<var>${status1}</var>
+<var>${iconAbbr}</var>
+<arg>true</arg>
+<arg>P1</arg>
+<doc>Description: general basic info for creating portfolio type</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.407" endtime="20230314 01:19:26.407"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>${status}</arg>
+<arg>set variable</arg>
+<arg>${statusFalse}</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.407" endtime="20230314 01:19:26.407"/>
+</kw>
+<kw name="create a portfolio type" library="portfolioTypeResource">
+<var>${resp}</var>
+<arg>{"name": "${portfolioTypeName1}","description": "${description}", "enabled": ${status1},"iconAbbr":"${iconAbbr}"}</arg>
+<arg>200</arg>
+<arg>${ag_user}</arg>
+<doc>this keyword is for create a portfolio type by api.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.407" endtime="20230314 01:19:26.407"/>
+</kw>
+<kw name="Get From Dictionary" library="Collections">
+<var>${Return_PortfolioTypeId1}</var>
+<arg>${resp.json()}</arg>
+<arg>id</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.408" endtime="20230314 01:19:26.408"/>
+</kw>
+<kw name="create basic info" library="portfolioTypeFunction">
+<var>${portfolioTypeName2}</var>
+<var>${description}</var>
+<var>${status2}</var>
+<var>${iconAbbr}</var>
+<arg>false</arg>
+<doc>Description: general basic info for creating portfolio type</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.408" endtime="20230314 01:19:26.408"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>${status}</arg>
+<arg>set variable</arg>
+<arg>${statusFalse}</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.408" endtime="20230314 01:19:26.408"/>
+</kw>
+<kw name="create a portfolio type" library="portfolioTypeResource">
+<var>${resp}</var>
+<arg>{"name": "${portfolioTypeName2}","description": "${description}", "enabled": ${status2},"iconAbbr":"${iconAbbr}"}</arg>
+<arg>200</arg>
+<arg>${ag_user}</arg>
+<doc>this keyword is for create a portfolio type by api.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.409" endtime="20230314 01:19:26.409"/>
+</kw>
+<kw name="Get From Dictionary" library="Collections">
+<var>${Return_PortfolioTypeId2}</var>
+<arg>${resp.json()}</arg>
+<arg>id</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.409" endtime="20230314 01:19:26.409"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${portfolioTypeName1}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.409" endtime="20230314 01:19:26.409"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${portfolioTypeName2}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.409" endtime="20230314 01:19:26.409"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${Return_PortfolioTypeId1}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.409" endtime="20230314 01:19:26.409"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${Return_PortfolioTypeId2}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" starttime="20230314 01:19:26.409" endtime="20230314 01:19:26.410"/>
+</kw>
+<status status="FAIL" starttime="20230314 01:19:25.522" endtime="20230314 01:19:26.410"/>
+</kw>
+<test id="s1-t1" name="Octane#522038 - new portfolio with sub-portfolio can be synced to Octane product field">
+<doc>Purpose: new portfolio with sub portfolio created can be synced to Octane product field
+Function Designer: Huanan Shen
+Author: Xuanyu Liu
+Create Date: 2/15/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.410" endtime="20230314 01:19:26.410">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<test id="s1-t2" name="Octane#522038 - new portfolio with no-sub portfolio can be synced to Octane product field">
+<doc>Purpose: new portfolio with no-sub portfolio created can be synced to Octane product field
+Function Designer: Huanan Shen
+Author: Xuanyu Liu
+Create Date: 2/15/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.411" endtime="20230314 01:19:26.411">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<test id="s1-t3" name="Octane#522038 - multiple portfolios can be synced to Octane product field">
+<doc>Purpose: multiple portfolios created can be synced to Octane product field
+Function Designer: Huanan Shen
+Author: Xuanyu Liu
+Create Date: 2/15/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.411" endtime="20230314 01:19:26.412">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<test id="s1-t4" name="Octane#522038 - update portfolio with name">
+<doc>Purpose: update portfolio with name can be synced to Octane product field
+Function Designer: Huanan Shen
+Author: Xuanyu Liu
+Create Date: 2/15/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.412" endtime="20230314 01:19:26.412">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<test id="s1-t5" name="Octane#522038 - update portfolio add a sub portfolio">
+<doc>Purpose: update portfolio add a sub portfolio can be synced to Octane product field
+Function Designer: Huanan Shen
+Author: Xuanyu Liu
+Create Date: 2/15/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.412" endtime="20230314 01:19:26.413">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<test id="s1-t6" name="Octane#522038 - update portfolio remove sub portfolio">
+<doc>Purpose: update portfolio remove sub portfolio can be synced to Octane product field
+Function Designer: Huanan Shen
+Author: Xuanyu Liu
+Create Date: 2/15/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.413" endtime="20230314 01:19:26.413">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<test id="s1-t7" name="Octane#522038 - delete portfolio and sync to octane">
+<doc>Purpose: delete portfolio and sync to octane
+Function Designer: Huanan Shen
+Author: Xuanyu Liu
+Create Date: 2/15/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.413" endtime="20230314 01:19:26.414">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<test id="s1-t8" name="Octane#549022 - [defect]when the root portfolio in portfolio tree synced failed, we have to sync the portfolio tree correctly in the next sync">
+<doc>Purpose: when the root portfolio in portfolio tree synced failed, we have to sync the portfolio tree correctly in the next sync
+Description:
+1. prepare a portfolio tree
+2. root portfolio will sync failed, check sub portfolio should sync successfully
+3. update root portfolio and sync should sync successfully, check sub portfolio's parent should be updated.
+Function Designer:
+Author: Xuanyu Liu
+Create Date: 3/10/2023</doc>
+<status status="FAIL" starttime="20230314 01:19:26.414" endtime="20230314 01:19:26.414">Parent suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</test>
+<status status="FAIL" starttime="20230314 01:19:24.846" endtime="20230314 01:19:26.415">Suite setup failed:
+Variable '${global_defaultRegion_id}' not found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="8" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="8" skip="0" id="s1" name="Sync portfolio hierarchy info to Octane product filed">Sync portfolio hierarchy info to Octane product filed</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

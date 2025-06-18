@@ -1,0 +1,17 @@
+[
+    {
+        "summary": "create template with user with edit access grant",
+        "body": {
+    "configuration":{
+        "layouts":[
+
+        ],
+        "details":{
+
+        }
+    },
+    "name":"ws_template_$GenTimeStamp()",
+    "description":"ws_template_description_$GenTimeStamp()"
+}
+    }
+]

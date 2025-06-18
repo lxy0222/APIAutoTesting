@@ -1,0 +1,88 @@
+test_info:
+  epic: User
+  feature: User
+  story: UserAdd
+  host: ${host}
+  method: POST
+  address: /itg/rest2/useradmin/users/add
+  mime_type: application/json
+  headers: {}
+  auth: admin,admin
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  premise: false
+  setup_function: false
+  clean_up:
+test_case:
+- summary: UserAdd2
+  title: create user with any permission
+  describe:
+  tag: User
+  issue: create user 00
+  premise: false
+  setup_function:
+  auth:
+  parameter: UserAdd_request.json
+  check_body:
+    check_type: check_code
+    expected_code: 200
+    expected_result:
+  clean_up:
+#- summary: UserAdd
+#  title: create user with edit all what if templates
+#  describe:
+#  tag: User
+#  issue: create user 00
+#  premise: false
+#  setup_function:
+#    func_create_security_group:
+#      accessGrants:
+#        - "122"
+#        - "hdhdhd"
+#      securityGroupName: ws_wozijixiede
+#  auth:
+#  parameter: UserAdd_request.json
+#  check_body:
+#    check_type: check_code
+#    expected_code: 200
+#    expected_result:
+#- summary: UserAdd
+#  title: create user without program permission
+#  describe:
+#  tag: User
+#  issue: create user 00
+#  premise: false
+#  setup_function:
+#  auth:
+#  parameter: SecurityGroupAdd_request.json
+#  check_body:
+#    check_type: check_code
+#    expected_code: 200
+#    expected_result:
+#- summary: UserAdd1
+#  title: create user with start date and end date
+#  describe:
+#  tag: User
+#  issue: create user 01
+#  premise: false
+#  setup_function:
+#  auth:
+#  parameter: SecurityGroupAdd_request.json
+#  check_body:
+#    check_type: check_code
+#    expected_code: 200
+#    expected_result:
+#- summary: UserAdd2
+#  title: create user with specific name and all permissions
+#  describe:
+#  tag: User
+#  issue: create user 02
+#  premise: false
+#  setup_function:
+#  auth:
+#  parameter: SecurityGroupAdd_request.json
+#  check_body:
+#    check_type: check_code
+#    expected_code: 200
+#    expected_result:

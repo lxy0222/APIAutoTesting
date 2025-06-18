@@ -1,0 +1,287 @@
+[
+    {
+        "summary": "Create a proposal",
+        "body": {
+    "request":{
+        "description":"ws_description_$GenTimeStamp()",
+        "fields":{
+            "field":[
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_CUSTOM_FIELD_VALUE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_INFRA_RISK"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.REQUEST_GROUP_NAME"
+                },
+                {
+                    "stringValue":"New",
+                    "token":"REQ.STATUS_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PRIORITY_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_STRATEGIC_MATCH"
+                },
+                {
+                    "stringValue":"PFM - Proposal",
+                    "token":"REQ.WORKFLOW_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.DEPARTMENT_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_PROJECT_MANAGER"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.CONTACT_EMAIL"
+                },
+                {
+                    "stringValue":"April 2017",
+                    "token":"REQ.KNTA_PLAN_START_DATE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.P_PRIMARY_BENEFICIARY"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.ASSIGNED_TO_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.P_PROJECT_SPONSOR"
+                },
+                {
+                    "stringValue":"0",
+                    "token":"REQ.KNTA_VALUE_RATING"
+                },
+                {
+                    "dateValue":"2017-04-25T15:26:14.000+08:00",
+                    "token":"REQ.LAST_UPDATE_DATE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_BUSINESS_OBJECTIVE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_PROPOSAL_DEPENDENCIES"
+                },
+                {
+                    "stringValue":"0",
+                    "token":"REQ.KNTA_RISK_RATING"
+                },
+                {
+                    "stringValue":"${ENTERPRISE}",
+                    "token":"REQ.KNTA_REGION"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_IRR"
+                },
+                {
+                    "stringValue":"0",
+                    "token":"REQ.KNTA_TOTAL_SCORE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.P_SPONSOR_DEPT"
+                },
+                {
+                    "stringValue":"(No Document Attached)",
+                    "token":"REQ.P_BIZ_CASE_DOC"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.CONTACT_PHONE_NUMBER"
+                },
+                {
+                    "dateValue":"2017-04-25T15:26:14.000+08:00",
+                    "token":"REQ.ENTITY_LAST_UPDATE_DATE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_PROJECT_PLAN"
+                },
+                {
+                    "stringValue":"0",
+                    "token":"REQ.KNTA_RETURN_ON_INVESTMENT"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_BUSINESS_UNIT"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.APPLICATION_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_PROJECT_TYPE"
+                },
+                {
+                    "stringValue":"0",
+                    "token":"REQ.PERCENT_COMPLETE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.P_SCORE_ADJUSTMENT"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.COMPANY_NAME"
+                },
+                {
+                    "stringValue":"${p_proposalName}",
+                    "token":"REQ.DESCRIPTION"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_DEF_RISK"
+                },
+                {
+                    "stringValue":"Admin User",
+                    "token":"REQ.CREATED_BY"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_ASSET_CLASS"
+                },
+                {
+                    "stringValue":"IN_PROGRESS",
+                    "token":"REQ.STATUS_CODE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.ASSIGNED_TO_GROUP_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.P_EXEC_SPONSOR"
+                },
+                {
+                    "stringValue":"November 2017",
+                    "token":"REQ.KNTA_PLAN_FINISH_DATE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_PRODUCTIVITY"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_BENEFITS_MANAGER"
+                },
+                {
+                    "stringValue":"0",
+                    "token":"REQ.KNTA_NET_PRESENT_VALUE"
+                },
+                {
+                    "stringValue":"PFM - Proposal",
+                    "token":"REQ.REQUEST_TYPE_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.P_VENDORS_INVOLVED"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.REQUEST_SUB_TYPE_NAME"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.P_AFFECT_BIZ_UNITS"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_ORG_RISK"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.CONTACT_NAME"
+                },
+                {
+                    "stringValue":"10",
+                    "token":"REQ.KNTA_DISCOUNT_RATE"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_TECH_RISK"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_ARCH_RISK"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.KNTA_PROJECT_CLASS"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_COMPETITIVE_RESP"
+                },
+                {
+                    "stringValue":"",
+                    "token":"REQ.PFM_SCORE_COMPETITIVE_ADV"
+                },
+                {
+                    "dateValue":"2017-04-25T15:26:14.000+08:00",
+                    "token":"REQ.CREATION_DATE"
+                },
+                {
+                    "stringValue":"${p_proposalName}",
+                    "token":"REQ.KNTA_PROJECT_NAME"
+                },
+                {
+                    "stringValue":"(No Document Attached)",
+                    "token":"REQ.P_REQ_DOC"
+                }
+            ]
+        },
+        "notes":{
+
+        },
+        "references":{
+
+        },
+        "requestType":"PFM - Proposal",
+        "source":"",
+        "sourceType":""
+    }
+}
+    },
+  {
+        "summary": "Create a bg under portfolio without parent",
+        "body": {
+      "businessGoal": {
+        "name": "ws_bg_$GenTimeStamp()",
+        "description": "",
+        "optimizeGoal": "true",
+        "ownerId": "1",
+        "portfolioId": "${resBGC2_data_id}",
+        "startDate": "2018-05-01 00:00:00",
+        "parentBusinessGoalId": 0,
+        "strategicThemeId": 0,
+        "status": "NOTSTART"
+      },
+      "kpi": {
+        "currencyCode": "USD",
+        "optimizationDirection": "MAX",
+        "type": {
+          "value": "MONEY",
+          "subValue": "USD"
+        }
+      }
+    }
+    }
+]

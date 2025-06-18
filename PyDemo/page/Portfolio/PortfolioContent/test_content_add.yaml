@@ -1,0 +1,70 @@
+test_info:
+  epic: Portfolio
+  feature: PortfolioContent
+  story: PortfolioContentAdd
+  host: ${host}
+  method: POST
+  address: /itg/rest2/portfolios/${resCD1_data_id}/contents/subPortfolios
+  mime_type: application/x-www-form-urlencoded
+  headers: {}
+  auth: ${AUTH}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+#  setup:
+#    premise:
+#      - - /Portfolio/test_portfolio_create.yaml
+#        - Create a portfolio
+#        - 这是setup premise创建
+#        - { "name":"suishouxiede"}
+#        - BGC1
+#    function:
+#      func_setup_test:
+#        a: test
+#  teardown:
+#    premise:
+#      - - /Portfolio/test_portfolio_create.yaml
+#        - Create a portfolio
+#        - 这是setup premise创建
+#        - { "name": "${resBGC1_data_1}" }
+#        - BGC1
+#    function:
+#      func_teardown_test:
+#        b: test down
+test_case:
+- summary: Add a sub-portfolio to portfolio
+  skip:
+  title: Octane#592014 - Create a business goal, his parent goal's KPI is of type private
+  auth:
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+      - step2:parent portfolio should add a bg with private KPI
+      - step3:creat a bg with parent bg
+    FunctionDesigner: Liu Hang
+    Author: Xuanyu Liu
+    CreateDate: 8/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description replace flag]
+    - - /Portfolio/test_portfolio_create.yaml
+      - Create a portfolio
+      - 创建父级portfolio以供后续添加子portfolio
+      - {"name":"ws_portfolio_$GenTimeStamp()"}
+      - CD1
+    - - /Portfolio/test_portfolio_create.yaml
+      - Create a portfolio
+      - 创建一个sub portfolio
+      - { "name": "ws_sub_portfolio_$GenTimeStamp()" }
+      - CD2
+  function:
+  parameter:
+    childPortfolioId: ${resCD2_data_id}
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "version", 0]
+        - ["gt", "id", 0]
+  teardown:
+

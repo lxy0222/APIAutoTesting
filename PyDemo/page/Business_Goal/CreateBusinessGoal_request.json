@@ -1,0 +1,74 @@
+[
+    {
+        "summary": "Create a bg with parent goal of a private type KPI",
+        "body": {
+      "businessGoal": {
+        "name": "ws_bg_$GenTimeStamp()",
+        "description": "",
+        "optimizeGoal": "true",
+        "ownerId": "1",
+        "portfolioId": "${resCD2_data_id}",
+        "startDate": "2018-05-01 00:00:00",
+        "parentBusinessGoalId": "${resBGC2_id}",
+        "strategicThemeId": 0,
+        "status": "NOTSTART"
+      },
+      "kpi": {
+        "currencyCode": "USD",
+        "optimizationDirection": "MAX",
+        "type": {
+          "value": "MONEY",
+          "subValue": "USD"
+        }
+      }
+    }
+    },
+  {
+        "summary": "Create a bg under portfolio without parent",
+        "body": {
+      "businessGoal": {
+        "name": "ws_bg_$GenTimeStamp()",
+        "description": "",
+        "optimizeGoal": "true",
+        "ownerId": "1",
+        "portfolioId": "${resBGC2_data_id}",
+        "startDate": "2018-05-01 00:00:00",
+        "parentBusinessGoalId": 0,
+        "strategicThemeId": 0,
+        "status": "NOTSTART"
+      },
+      "kpi": {
+        "currencyCode": "USD",
+        "optimizationDirection": "MAX",
+        "type": {
+          "value": "MONEY",
+          "subValue": "USD"
+        }
+      }
+    }
+    },
+  {
+        "summary": "Create a bg with parent goal of a private type KPI1",
+        "body": {
+      "businessGoal": {
+        "name": "ws_bg_$GenTimeStamp()",
+        "description": "",
+        "optimizeGoal": "true",
+        "ownerId": "1",
+        "portfolioId": "${GD_ws_sub_portfolio1_id}",
+        "startDate": "2018-05-01 00:00:00",
+        "parentBusinessGoalId": "${resBGC2_id}",
+        "strategicThemeId": 0,
+        "status": "NOTSTART"
+      },
+      "kpi": {
+        "currencyCode": "USD",
+        "optimizationDirection": "MAX",
+        "type": {
+          "value": "MONEY",
+          "subValue": "USD"
+        }
+      }
+    }
+    }
+]

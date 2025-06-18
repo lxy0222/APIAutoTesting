@@ -1,0 +1,159 @@
+test_info:
+  epic: BusinessGoal
+  feature: BusinessGoalCreate
+  story: ParentGoalWithPrivateKPI
+  host: ${host}
+  method: POST
+  address: /itg/rest2/businessGoals/bgKpi
+  mime_type: application/json
+  headers: {}
+  auth: ${AUTH}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  setup:
+    premise:
+    function:
+      create_data:
+        hierarchy: {
+        "type": "portfolio",
+        "name": "ws_TOP_portfolio",
+        "strategicThemes": [
+            {
+                "name": "Top_st",
+                "parent": "",
+                "color": "#6890CB",
+                "children": [],
+                "businessGoals": []
+            }
+        ],
+        "children": [
+            {
+                "type": "portfolio",
+                "name": "ws_sub_portfolio1",
+                "children": [
+                    {
+                        "type": "portfolio",
+                        "name": "ws_sub_sub_portfolio1",
+                        "children": []
+                    },
+                    {
+                        "type": "proposal",
+                        "name": "nested_proposal"
+                    }
+                ]
+            },
+            {
+                "type": "proposal",
+                "name": "ws_proposal"
+            },
+            {
+                "type": "program",
+                "name": "ws_program"
+            }
+        ]
+    }
+  teardown:
+    premise: false
+    function: false
+test_case:
+- summary: get request types
+  skip:
+  title: get request types
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+    FunctionDesigner: CHEN
+    Author: Xuanyu Liu
+    CreateDate: 1/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  method: GET
+  address: /itg/rest2/dm/requestTypes
+  premise: # [path key description replace_dict flag]
+  setup_function:
+  auth: #${GD_userName},Asdf1@34
+  parameter:
+- summary: create octane request
+  skip:
+  title: create octane request
+  describe:
+  tag: TAG01
+  method: POST
+  address: /itg/rest2/dm/requests
+  issue: create scenario 01
+  premise: # [path key description replace_dict flag]
+    - - /SPM/SPM_END_TO_END/end_to_end_resource.yaml
+      - get request types
+      - get request types from api
+      - { }
+      - GRT1
+  setup_function:
+  auth:
+  parameter: EndToEndResource_request.json
+- summary: get portfolio types
+  skip:
+  title: get portfolio types
+  describe:
+  tag: TAG01
+  method: GET
+  address: /itg/rest2/portfolioTypes?status=enable
+  issue: create scenario 01
+  premise: # [path key description replace_dict flag]
+    - - /SPM/SPM_END_TO_END/end_to_end_resource.yaml
+      - get request types
+      - get request types from api
+      - { }
+      - GRT1
+  setup_function:
+  auth: #${GD_userName},Asdf1@34
+  parameter: EndToEndResource_request.json
+- summary: create octane requestsssssssssssssssssss
+  skip:
+  title: Octane#592014 - Create a business goal, his parent goal's KPI is of type private
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+    FunctionDesigner: CHEN
+    Author: Xuanyu Liu
+    CreateDate: 1/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description replace_dict flag]
+    - - /Portfolio/test_portfolio_create.yaml
+      - Create a portfolio
+      - create a portfolio
+      - {"id":"ws_portfolio_$GenTimeStamp()"}
+      - CD1
+  setup_function:
+  auth: #${GD_userName},Asdf1@34
+  parameter: CreateBusinessGoal_request.json
+- summary: run report immediately
+  skip:
+  title: run report immediately
+  method: POST
+  address: /itg/rest2/reports/immediateReport
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+    FunctionDesigner: CHEN
+    Author: Xuanyu Liu
+    CreateDate: 1/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description replace_dict flag]
+  setup_function:
+  auth: #${GD_userName},Asdf1@34
+  parameter: CreateBusinessGoal_request.json
+- summary: get report submission status
+  skip:
+  title: get report submission status
+  method: GET
+  address: /itg/rest2/reports/${reportReferenceCode}/reportSubmission/${reportSubmissionId}
+  describe:
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description replace_dict flag]
+  setup_function:
+  auth: #${GD_userName},Asdf1@34
+  parameter:

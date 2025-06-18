@@ -1,0 +1,97 @@
+test_info:
+  epic: Portfolio
+  feature: PortfolioCreate
+  story: PortfolioCreate
+  host: ${host}
+  method: POST
+  address: /itg/rest2/portfolios
+  mime_type: application/json
+  headers: {}
+  auth: ${AUTH}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  setup:
+    premise: false
+    function: false
+  clean_up:
+test_case:
+- summary: Create a portfolio
+  skip:
+  title: Create a portfolio by rest
+  tag: TAG01
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+      - step2:parent portfolio should add a bg with private KPI
+      - step3:creat a bg with parent bg
+    FunctionDesigner: Liu Hang
+    Author: Xuanyu Liu
+    CreateDate: 8/5/2023'
+  issue: create scenario 01
+  premise: # [path key description]
+#    - /UserManagement/SecurityGroup/test_security_group_add.yaml
+#    - create security group with accessGrants
+#    - 创建安全组
+  setup_function:
+#    func_create_user_with_specified_license_and_security_group:
+#      licenses: [6,2]
+#      password: Asdf1@34
+#      securityGroups:
+#        - ${id}
+  auth:
+  parameter:
+    name: ws_portfolio_$GenTimeStamp()
+    managers:
+      - userId: ${ADMIN_USER_ID}
+        fullName: ${ADMIN_FULLNAME}
+    portfolioType:
+      id: -1
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:
+#    func_add_security_group_to_user:
+#      securityGroupId: ${GD_sgId}
+#      userId: ${GD_userId}
+- summary: Create a portfolio and add a sub-portfolio
+  skip: true
+  title: Create a portfolio and add a sub-portfolio
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+      - step2:parent portfolio should add a bg with private KPI
+      - step3:creat a bg with parent bg
+    FunctionDesigner: Liu Hang
+    Author: Xuanyu Liu
+    CreateDate: 8/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description]
+    - /Portfolio/test_portfolio_create.yaml
+    - Create a portfolio
+    - 创建一个portfolio以供后续添加子portfolio
+  setup_function:
+#    func_create_user_with_specified_license_and_security_group:
+#      licenses: [6,2]
+#      password: Asdf1@34
+#      securityGroups:
+#        - ${id}
+  auth:
+  parameter:
+    name: ws_portfolio_$GenTimeStamp()
+    managers:
+      - userId: ${ADMIN_USER_ID}
+        fullName: ${ADMIN_FULLNAME}
+    portfolioType:
+      id: -1
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["eq", "$..name", '${name}']
+        - ["gt", "$..id", 0]
+  clean_up:

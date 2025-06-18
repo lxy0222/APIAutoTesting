@@ -1,0 +1,63 @@
+test_info:
+  epic: SPM
+  feature: END_TO_END
+  story: Sync_portfolio_hierarchy_info_to_Octane_product_filed
+  host: ${host}
+  method: POST
+  address: /itg/rest/dm/requests
+  mime_type: application/json
+  headers: {}
+  auth: ${AUTH}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  setup:
+    setup_function: false
+    premise: false
+  clean_up:
+test_case:
+- summary: create a portfolio with epic can be synced to octane and octane side update some field can be synced to SPM
+  skip:
+  title: create a portfolio with epic can be synced to octane and octane side update some field can be synced to SPM
+  tag: END TO END
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+    FunctionDesigner: CHEN
+    Author: Xuanyu Liu
+    CreateDate: 1/5/2023'
+  issue: create scenario 01
+  premise:
+    - - /SPM/SPM_END_TO_END/end_to_end_resource.yaml
+      - create octane request
+      - create epic to sync
+      - { }
+      - CETS1
+    - - /SPM/SPM_END_TO_END/end_to_end_resource.yaml
+      - get portfolio types
+      - get a validate portfolio type
+      - { }
+      - GAPT
+    - - /Portfolio/test_portfolio_create.yaml
+      - Create a portfolio
+      - create a portfolio
+      - { "id": "${res_GAPT_0_id}" }
+      - CAP
+    - - /SPM/SPM_END_TO_END/end_to_end_resource.yaml
+      - run report immediately
+      - run report immediately
+      - { }
+      - RRM
+  setup_function:
+    func_wait_until_report_submission_completed:
+  auth: #${GD_userName},Asdf1@34
+  parameter:
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["equal_to", "$.name", ""]
+  validate:
+  teardown:
+    premise: false
+    function: false

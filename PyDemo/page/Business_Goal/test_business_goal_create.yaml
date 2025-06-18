@@ -1,0 +1,146 @@
+test_info:
+  epic: BusinessGoal
+  feature: BusinessGoalCreate
+  story: ParentGoalWithPrivateKPI
+  host: ${host}
+  method: POST
+  address: /itg/rest2/businessGoals/bgKpi
+  mime_type: application/json
+  headers: {}
+  auth: ${AUTH}
+  timeout: ${timeout}
+  file: false
+  cookies: false
+  setup:
+    premise:
+    function:
+      create_data:
+        hierarchy: {
+        "type": "portfolio",
+        "name": "ws_TOP_portfolio",
+        "strategicThemes": [
+            {
+                "name": "Top_st",
+                "parent": "",
+                "color": "#6890CB",
+                "children": [],
+                "businessGoals": []
+            }
+        ],
+        "children": [
+            {
+                "type": "portfolio",
+                "name": "ws_sub_portfolio1",
+                "children": [
+                    {
+                        "type": "portfolio",
+                        "name": "ws_sub_sub_portfolio1",
+                        "children": []
+                    },
+                    {
+                        "type": "proposal",
+                        "name": "nested_proposal"
+                    }
+                ]
+            },
+            {
+                "type": "proposal",
+                "name": "ws_proposal"
+            },
+            {
+                "type": "program",
+                "name": "ws_program"
+            }
+        ]
+    }
+  teardown:
+    premise: false
+    function: false
+test_case:
+- summary: Create a bg with parent goal of a private type KPI1
+  skip:
+  title: Octane#592014 - Create a business goal, his parent goal's KPI is of type private
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+    FunctionDesigner: CHEN
+    Author: Xuanyu Liu
+    CreateDate: 1/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description replace_dict flag]
+    - - /Business_Goal/business_goal_api.yaml
+      - Create a bg under portfolio without parent
+      - Create a bg under top portfolio
+      - {"portfolioId":'${GD_ws_TOP_portfolio_id}'}
+      - BGC2
+  setup_function:
+  auth: #${GD_userName},Asdf1@34
+  parameter: CreateBusinessGoal_request.json
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["equal_to", "$.name", "${req_businessGoal_name}"]
+  validate:
+    -
+      url: /itg/rest2/businessGoals/${res_id}/view
+      method: GET
+      mime_type:
+      body:
+      # another api body
+      check_body:
+        check_type: check_json
+        expected_code: 200
+        expected_result:
+          - [ "equal_to", "$.id", "${res_id}" ]
+          - [ "grater_and_equal_to", "$.rank", "1" ]
+  teardown:
+    premise: false
+    function: false
+- summary: Create a bg with parent goal of a private type KPI
+  skip:
+  title: Octane#592014 - Create a business goal, his parent goal's KPI is of type private
+  describe:
+    Description:
+      - step1:prepare a portfolio with sub-portfolio
+    FunctionDesigner: CHEN
+    Author: Xuanyu Liu
+    CreateDate: 1/5/2023'
+  tag: TAG01
+  issue: create scenario 01
+  premise: # [path key description replace_dict flag]
+    - - /Portfolio/PortfolioContent/test_content_add.yaml
+      - Add a sub-portfolio to portfolio
+      - add portfolio to top-portfolio
+      - { }
+      - BGC1
+    - - /Business_Goal/business_goal_api.yaml
+      - Create a bg under portfolio without parent
+      - Create a bg under top portfolio
+      - {"portfolioId":'${resCD1_data_id}'}
+      - BGC2
+  setup_function:
+  auth: #${GD_userName},Asdf1@34
+  parameter: CreateBusinessGoal_request.json
+  check_body:
+    check_type: check_json
+    expected_code: 200
+    expected_result:
+        - ["equal_to", "$.name", "${req_businessGoal_name}"]
+  validate:
+    -
+      url: /itg/rest2/businessGoals/${res_id}/view
+      method: GET
+      mime_type:
+      body:
+      # another api body
+      check_body:
+        check_type: check_json
+        expected_code: 200
+        expected_result:
+          - [ "equal_to", "$.id", "${res_id}" ]
+          - [ "grater_and_equal_to", "$.rank", "1" ]
+  teardown:
+    premise: false
+    function: false

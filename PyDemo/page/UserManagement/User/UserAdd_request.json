@@ -1,0 +1,454 @@
+[
+    {
+        "summary": "UserAdd",
+        "body": {
+    "authentication":{
+        "authenticationMode":{
+            "code":"ITG",
+            "meaning":""
+        },
+        "distinguishedName":"N/N",
+        "domain":"",
+        "logonIdInLdap":"N/N",
+        "password":"${common_user_pwd}",
+        "newPasswordOnLogon":false,
+        "passwordExpirationDate":"",
+        "passwordExpirationDays":"",
+        "startDate":"2016-11-01T00:00:00.000+08:00",
+        "endDate":""
+    },
+    "user":{
+        "calendarId":100000,
+        "company":{
+            "code":"",
+            "meaning":""
+        },
+        "email":"",
+        "firstName":"$GenFirstName()",
+        "lastName":"$GenLastName()",
+        "phoneNumber":"",
+        "userName":"$GenName()",
+        "region":{
+            "code":"${GD_global_defaultRegion_id}",
+            "meaning":"America"
+        },
+        "regionOverrideFlag":false,
+        "enabledFlag":true
+    },
+    "userLicense":{
+        "sysProducts":[
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":8,
+                "productName":"Configuration - Access to all Applications and their configuration, except User Administration"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":7,
+                "productName":"User Administration - Create Users, Security Groups, and assign Licenses"
+            }
+        ],
+        "appProducts":[
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":12,
+                "productName":"Application Portfolio Analyst - Requires Demand Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":13,
+                "productName":"Application Portfolio User - Requires Demand Management"
+            },
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":2,
+                "productName":"Demand Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":1,
+                "productName":"Deployment Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":6,
+                "productName":"Portfolio Management - Requires Demand Management"
+            },
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":4,
+                "productName":"Program Management - Requires Demand Management and Project Management"
+            },
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":3,
+                "productName":"Project Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":5,
+                "productName":"Time Management"
+            }
+        ]
+    },
+    "ownership":[
+
+    ]
+}
+    },
+    {
+        "summary": "UserAdd1",
+        "body": {
+    "authentication":{
+        "authenticationMode":{
+            "code":"ITG",
+            "meaning":""
+        },
+        "distinguishedName":"N/N",
+        "domain":"",
+        "logonIdInLdap":"N/N",
+        "password":"${common_user_pwd}",
+        "newPasswordOnLogon":false,
+        "passwordExpirationDate":"",
+        "passwordExpirationDays":"",
+        "startDate":"$GenDate(d-1)T00:00:00.000+08:00",
+        "endDate":"$GenDate(m+1)T00:00:00.000+08:00",
+        "startDateStr":"$GenDate(d-1)T00:00:00.000+08:00",
+        "endDateStr":"$GenDate(m+1)T00:00:00.000+08:00"
+    },
+    "user":{
+        "calendarId":100000,
+        "company":{
+            "code":"",
+            "meaning":""
+        },
+        "email":"",
+        "firstName":"$GenFirstName()",
+        "lastName":"$GenLastName()",
+        "phoneNumber":"",
+        "userName":"$GenName()",
+        "region":{
+            "code":"${GD_global_defaultRegion_id}",
+            "meaning":"America"
+        },
+        "regionOverrideFlag":false,
+        "enabledFlag":true
+    },
+    "userLicense":{
+        "sysProducts":[
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":8,
+                "productName":"Configuration - Access to all Applications and their configuration, except User Administration"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":7,
+                "productName":"User Administration - Create Users, Security Groups, and assign Licenses"
+            }
+        ],
+        "appProducts":[
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":12,
+                "productName":"Application Portfolio Analyst - Requires Demand Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":13,
+                "productName":"Application Portfolio User - Requires Demand Management"
+            },
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":2,
+                "productName":"Demand Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":1,
+                "productName":"Deployment Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":6,
+                "productName":"Portfolio Management - Requires Demand Management"
+            },
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":4,
+                "productName":"Program Management - Requires Demand Management and Project Management"
+            },
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":3,
+                "productName":"Project Management"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":5,
+                "productName":"Time Management"
+            }
+        ]
+    },
+    "ownership":[
+
+    ]
+}
+    },
+    {
+        "summary": "UserAdd1",
+        "body": {
+    "authentication":{
+        "authenticationMode":{
+            "code":"ITG",
+            "meaning":""
+        },
+        "distinguishedName":"N/N",
+        "domain":"",
+        "logonIdInLdap":"N/N",
+        "password":"${common_user_pwd}",
+        "newPasswordOnLogon":false,
+        "passwordExpirationDate":"",
+        "passwordExpirationDays":"",
+        "startDate":"$GenDate(d-1)T00:00:00.000+08:00",
+        "endDate":"",
+        "startDateStr":"$GenDate(d-1)T00:00:00.000+08:00",
+        "endDateStr":""
+    },
+    "user":{
+        "calendarId":100000,
+        "company":{
+            "code":"",
+            "meaning":""
+        },
+        "email":"${email}",
+        "firstName":"$GenFirstName()",
+        "lastName":"$GenLastName()",
+        "phoneNumber":"",
+        "userName":"$GenName()",
+        "region":{
+            "code":"${GD_global_defaultRegion_id}",
+            "meaning":"America"
+        },
+        "regionOverrideFlag":false,
+        "enabledFlag":true
+    },
+    "userLicense":{
+        "sysProducts":[
+            {
+                "checked":true,
+                "productDesc":"",
+                "productId":8,
+                "productName":"Configuration - Access to all Applications and their configuration, except User Administration"
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":7,
+                "productName":"User Administration - Create Users, Security Groups, and assign Licenses"
+            }
+        ],
+        "appProducts":[
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":12,
+                "productName":"Application Portfolio Analyst - Requires Demand Management",
+                "disabled":true
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":13,
+                "productName":"Application Portfolio User - Requires Demand Management",
+                "disabled":true
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":2,
+                "productName":"Demand Management",
+                "disabled":true
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":1,
+                "productName":"Deployment Management",
+                "disabled":true
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":6,
+                "productName":"Portfolio Management - Requires Demand Management",
+                "disabled":true
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":4,
+                "productName":"Program Management - Requires Demand Management and Project Management",
+                "disabled":true
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":3,
+                "productName":"Project Management",
+                "disabled":true
+            },
+            {
+                "checked":false,
+                "productDesc":"",
+                "productId":5,
+                "productName":"Time Management",
+                "disabled":true
+            }
+        ]
+    },
+    "ownership":[
+
+    ],
+    "noOrgSecurityGroups":[
+        {
+            "code":"3",
+            "meaning":"PPM All Access Grants"
+        }
+    ]
+}
+    },
+    {
+        "summary": "UserAdd2",
+        "body": {
+    "authentication":{
+        "authenticationMode":{
+            "code":"ITG",
+            "meaning":""
+        },
+        "distinguishedName":"N/N",
+        "domain":"",
+        "logonIdInLdap":"N/N",
+        "password":"${common_user_pwd}",
+        "newPasswordOnLogon":false,
+        "passwordExpirationDate":"",
+        "passwordExpirationDays":"",
+        "startDate":"$GenDate(d-1)T00:00:00.000+08:00",
+        "endDate":"",
+        "startDateStr":"$GenDate(d-1)T00:00:00.000+08:00",
+        "endDateStr":""
+    },
+    "user":{
+        "calendarId":100000,
+        "company":{
+            "code":"",
+            "meaning":""
+        },
+        "email":"$GenEmail()",
+        "firstName":"$GenFirstName()",
+        "lastName":"$GenLastName()",
+        "phoneNumber":"",
+        "userName":"$GenName()",
+        "region":{
+            "code":"${GD_global_defaultRegion_id}",
+            "meaning":"America"
+        },
+        "regionOverrideFlag":false,
+        "enabledFlag":true
+    },
+    "userLicense":{
+        "sysProducts":[
+            {
+                "checked":"${GD_checked_0}",
+                "productDesc":"",
+                "productId":8,
+                "productName":"Configuration - Access to all Applications and their configuration, except User Administration"
+            },
+            {
+                "checked":"${GD_checked_1}",
+                "productDesc":"",
+                "productId":7,
+                "productName":"User Administration - Create Users, Security Groups, and assign Licenses"
+            }
+        ],
+        "appProducts":[
+            {
+                "checked":"${GD_checked_2}",
+                "productDesc":"",
+                "productId":12,
+                "productName":"Application Portfolio Analyst - Requires Demand Management"
+            },
+            {
+                "checked":"${GD_checked_3}",
+                "productDesc":"",
+                "productId":13,
+                "productName":"Application Portfolio User - Requires Demand Management"
+            },
+            {
+                "checked":"${GD_checked_4}",
+                "productDesc":"",
+                "productId":2,
+                "productName":"Demand Management",
+                "disabled":true
+            },
+            {
+                "checked":"${GD_checked_5}",
+                "productDesc":"",
+                "productId":1,
+                "productName":"Deployment Management"
+            },
+            {
+                "checked":"${GD_checked_6}",
+                "productDesc":"",
+                "productId":6,
+                "productName":"Portfolio Management - Requires Demand Management",
+                "disabled":true
+            },
+            {
+                "checked":"${GD_checked_7}",
+                "productDesc":"",
+                "productId":4,
+                "productName":"Program Management - Requires Demand Management and Project Management"
+            },
+            {
+                "checked":"${GD_checked_8}",
+                "productDesc":"",
+                "productId":3,
+                "productName":"Project Management"
+            },
+            {
+                "checked":"${GD_checked_9}",
+                "productDesc":"",
+                "productId":5,
+                "productName":"Time Management"
+            }
+        ]
+    },
+    "ownership":[
+
+    ],
+    "noOrgSecurityGroups":[
+    ]
+}
+    }
+]
